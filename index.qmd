@@ -6,3 +6,4 @@ format: html
 
 ## Expose
 
+[**curriculum vitae**](/cv_2025.pdf)
