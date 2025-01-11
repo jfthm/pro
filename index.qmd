@@ -7,3 +7,11 @@ format: html
 ## Expose
 
 [**curriculum vitae**](/CV_2025.pdf)
+
+[{{< fa envelope >}}](mailto:j.f.th.meissner@gmail.com)
+
+[{{< fa brands github >}}](https://github.com/jfthm/)
+
+[{{< fa brands linkedin >}}](https://www.linkedin.com/in/jfthm)
+
+[{{< fa brands mastodon >}}](https://mastodon.berlin/@jfthm/)
