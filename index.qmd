@@ -113,7 +113,7 @@ Für weiterführende Analysen bieten sich **vergleichende Fallstudien** (z. B. u
 ::: {#refs}
 :::
 
-## über mich
+# über mich
 
 [**curriculum vitae**](/CV_2025.pdf) 
 
