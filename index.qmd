@@ -24,7 +24,7 @@ Inwiefern werden ESU-Daten genutzt, um Sprachförderbedarfe zu identifizieren un
 Wie werden die Ergebnisse der Einschulungsuntersuchungen in die Planung und Adaption der Sprachfördersysteme integriert?  
 
 **Steuerungsprozesse & Akteurskooperation:**  
-   Nach welchen Maßstäben werden organisatorische Entscheidungen zur Implementierung von Sprachfit getroffen, und wie gestaltet sich die Zusammenarbeit zwischen den beteiligten Institutionen (Schulträger, Schulverwaltung, Kita-Träger)?  
+   Nach welchen Maßstäben werden organisatorische Entscheidungen zur Implementierung von Sprachfit getroffen, und wie gestaltet sich die Zusammenarbeit zwischen den beteiligten Institutionen (Schulträger @Luthi.2023, Schulverwaltung, Kita-Träger @Thaiss.2023)?  
    - Welche strukturellen, kommunikativen oder ressourcenbedingten Widerstände und Synergien treten dabei auf?  
 
 **Systemanpassungen & Nachhaltigkeit:**  
@@ -48,22 +48,21 @@ Die Forschung zur Umsetzung des **Landesprogramms Sprachfit** (Säule 1: Kita, S
 ---
 
 ### **Datenbasierte Diagnostik und ESU-Daten**  
-- **ESU als Schlüsselinstrument**: Die **Einschulungsuntersuchung (ESU)** liefert zentrale Daten zur Sprachkompetenz und Entwicklungsständen von Kindern. In Baden-Württemberg werden diese Daten genutzt, um frühzeitig Förderbedarfe zu identifizieren und Übergänge zwischen Kita und Grundschule zu steuern [6][7].  
-  - Beispiel: In Oberhausen dienen ESU-Daten zur Erstellung eines **Schulsozialindex**, der Ressourcenallokation (z. B. Sprachförderstunden) bedarfsgerecht ermöglicht [6].  
-- **Herausforderungen**: Die Integration von ESU-Daten in kommunale Steuerungsprozesse ist komplex. Kritisch wird die **Standardisierung der Diagnostik** (z. B. HASE, SETK 3-5) und die mangelnde Berücksichtigung soziokultureller Kontexte diskutiert [7].  
+- **ESU als Schlüsselinstrument**: Die **Einschulungsuntersuchung (ESU)** liefert zentrale Daten zur Sprachkompetenz und Entwicklungsständen von Kindern. In Baden-Württemberg werden diese Daten genutzt, um frühzeitig Förderbedarfe zu identifizieren und Übergänge zwischen Kita und Grundschule zu steuern @TimSiepke.2014.  
+  - Dienen ESU-Daten zur Erstellung eines **Schulsozialindex**, der Ressourcenallokation (z. B. Sprachförderstunden) bedarfsgerecht ermöglicht @LisakWahl.2021, @Kuhnelt.2023.  
+- **Herausforderungen**: Die Integration von ESU-Daten in kommunale Steuerungsprozesse ist komplex @Groos.2015. Kritisch wird die **Standardisierung der Diagnostik** (z. B. HASE, SETK 3-5) und die mangelnde Berücksichtigung soziokultureller Kontexte diskutiert @Hogrebe.2019, @Fuhrer.2019.  
 
 ---
 
 ### **Kommunikative Steuerung und Akteurskooperation**  
-- **Interinstitutionelle Kooperation**: Erfolgreiche Umsetzung erfordert die Vernetzung von **Schulträgern, Schulverwaltung, Kita-Trägern und Eltern**. Studien zeigen, dass strukturelle Barrieren (z. B. Ressortegoismen) und unklare Zuständigkeiten die Zusammenarbeit erschweren [2][3].  
-  - **Beispiel Hamburg**: Das Sprachförderkonzept setzt auf **Sprachlernberater:innen** und schulübergreifende Gremien, um Synergien zu schaffen [1].  
-- **Rolle des DKBM**: Kommunales Bildungsmanagement fungiert als „Scharnier“ zwischen Akteuren, nutzt jedoch oft **formale Strukturen** (z. B. Lenkungsgremien) statt partizipativer Ansätze [3][4].  
+- **Interinstitutionelle Kooperation**: Erfolgreiche Umsetzung erfordert die Vernetzung von **Schulträgern, Schulverwaltung, Kita-Trägern und Eltern**. Studien zeigen, dass strukturelle Barrieren (z. B. Ressortegoismen) und unklare Zuständigkeiten die Zusammenarbeit erschweren @Kurucz.2023.  
+- **Rolle des DKBM**: Kommunales Bildungsmanagement fungiert als „Scharnier“ zwischen Akteuren, nutzt jedoch oft **formale Strukturen** (z. B. Lenkungsgremien) statt partizipativer Ansätze @HerbertMaul.2023, @StandigeWissenschaftlicheKommissionderKultusministerkonferenzSWK.2025.  
 
 ---
 
 ### **Organisatorische Entscheidungen und Systemanpassungen**  
-- **Sozialindizes und Ressourcenverteilung**: Kommunen wie Oberhausen nutzen kleinräumige Sozialdaten, um Förderressourcen bedarfsgerecht zuzuweisen [6].  
-  - **Kritik**: Die **Datenqualität** und -interpretation bleibt eine Herausforderung. So werden z. B. Sprachbarrieren in ESU-Tests oft nicht ausreichend berücksichtigt [7].  
+- **Sozialindizes und Ressourcenverteilung**: Kommunen nutzen kleinräumige Sozialdaten, um Förderressourcen bedarfsgerecht zuzuweisen @Bohm.2007,@Kersting.2019, .  
+  - **Kritik**: Die **Datenqualität** und -interpretation bleibt eine Herausforderung. So werden z. B. Sprachbarrieren in ESU-Tests oft nicht ausreichend berücksichtigt @Hinzen.2022.  
 - **Adaption bestehender Systeme**: Die Anpassung von Sprachförderstrukturen (z. B. Einbindung von Mehrsprachigkeit) erfordert **flexible Rahmenbedingungen** und Fortbildungen für pädagogisches Personal [1][5].  
 
 ---
@@ -78,9 +77,9 @@ Die Forschung zur Umsetzung des **Landesprogramms Sprachfit** (Säule 1: Kita, S
 ### **Widerstände und Synergien**  
 - **Strukturelle Hürden**:  
   - **Personalmangel** in Kitas und Schulen limitiert die Umsetzung von Sprachförderprogrammen.  
-  - **Datenschutzbedenken** erschweren die Verknüpfung von Verwaltungsdaten (z. B. ESU mit Schulstatistik) [6][7].  
+  - **Datenschutzbedenken** erschweren die Verknüpfung von Verwaltungsdaten (z. B. ESU mit Schulstatistik).  
 - **Erfolgsfaktoren**:  
-  - **Partizipative Entwicklungsprozesse** (z. B. Werkstätten mit Eltern und Fachkräften) stärken die Akzeptanz von Maßnahmen [3].  
+  - **Partizipative Entwicklungsprozesse** (z. B. Werkstätten mit Eltern und Fachkräften) stärken die Akzeptanz von Maßnahmen .  
   - **Mehrsprachigkeitsansätze**, die Herkunftssprachen einbeziehen, zeigen positive Effekte auf die Identitätsbildung [1].  
 
 ---
@@ -89,7 +88,7 @@ Die Forschung zur Umsetzung des **Landesprogramms Sprachfit** (Säule 1: Kita, S
 - **Qualitative Lücken**: Wenig erforscht sind die **alltäglichen Praktiken** der Sprachförderung in Kitas/Grundschulen und die Rolle informeller Netzwerke.  
 - **Empfehlungen**:  
   - **Längsschnittstudien** zur Wirksamkeit von Sprachförderprogrammen.  
-  - **Mixed-Methods-Designs**, die quantitative ESU-Daten mit qualitativen Interviews (Experten, Eltern) verknüpfen [7].  
+  - **Mixed-Methods-Designs**, die quantitative ESU-Daten mit qualitativen Interviews (Experten, Eltern) verknüpfen .  
 
 ---
 
