@@ -1,5 +1,5 @@
 ---
-title: "Promotionsprojekt"
+title: "Exposé des Promotionsprojektes"
 lang: de  
 author: "J. Franz Th. Meißner"
 format:
@@ -12,7 +12,10 @@ bibliographystyle: apa
 ---
 
 
-# Expose des Promotionsprojektes
+
+# Einschulungsuntersuchung im Rahmen des Landesprogramms Sprachfit aus Sicht der regionaler Akteure 
+
+**(Arbeitstitel)**
 
 ## Forschungsfrage 
 *Wie gestaltet sich die Umsetzung des Landesprogramms Sprachfit (Säule 1: frühkindliche Sprachförderung in Kitas; Säule 2: sprachliche Bildung in Grundschulen) im Rahmen des datenbasierten kommunalen Bildungsmanagements, und welche Rolle spielen dabei die ESU-Daten als diagnostische Grundlage sowie die kommunikative Steuerung zwischen Schulträgern, Schulverwaltung, Kita-Trägern und weiteren Akteuren?*
