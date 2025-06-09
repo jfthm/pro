@@ -54,7 +54,7 @@ Die Forschung zur Umsetzung des **Landesprogramms Sprachfit** (Säule 1: Kita, S
 
 ---
 
-weitere Ausführung [zum Forschungsstand](forschungsstand.html)
+weitere detaillierte Ausführung [zum Forschungsstand](forschungsstand.html)
 
 ### **Datenbasierte Diagnostik und ESU-Daten**  
 - **ESU als Schlüsselinstrument**: Die **Einschulungsuntersuchung (ESU)** liefert zentrale Daten zur Sprachkompetenz und Entwicklungsständen von Kindern. In Baden-Württemberg werden diese Daten genutzt, um frühzeitig Förderbedarfe zu identifizieren und Übergänge zwischen Kita und Grundschule zu steuern @TimSiepke.2014.  
