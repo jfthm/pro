@@ -54,7 +54,7 @@ Die Forschung zur Umsetzung des **Landesprogramms Sprachfit** (Säule 1: Kita, S
 
 ---
 
-weitere detaillierte Ausführung [zum Forschungsstand](forschungsstand.html)
+weitere detaillierte Ausführung [siehe hier](forschungsstand.html)
 
 ### **Datenbasierte Diagnostik und ESU-Daten**  
 - **ESU als Schlüsselinstrument**: Die **Einschulungsuntersuchung (ESU)** liefert zentrale Daten zur Sprachkompetenz und Entwicklungsständen von Kindern. In Baden-Württemberg werden diese Daten genutzt, um frühzeitig Förderbedarfe zu identifizieren und Übergänge zwischen Kita und Grundschule zu steuern @TimSiepke.2014.  
@@ -76,8 +76,8 @@ weitere detaillierte Ausführung [zum Forschungsstand](forschungsstand.html)
 
 ---
 
-### **Bildungsberichte und Monitoring**  
-- **Bildungsberichterstattung**: Trotz breiter Verbreitung (z. B. im BMBF-Programm *Bildung integriert*) wird die **praktische Relevanz** von Bildungsberichten kritisch hinterfragt.  
+### **Bildungsberichte und Bildungsmonitoring**  
+- **Bildungsberichterstattung**: Trotz breiter Verbreitung (z. B. im BMBF-Programm *Bildung integriert* und nachfolgende Programme) wird die **praktische Relevanz** von Bildungsberichten kritisch hinterfragt.  
   - Studien zeigen, dass viele Kommunen Berichte primär aufgrund von Förderauflagen erstellen, aber nach Projektende nicht fortsetzen.  
   - **Empirische Lücke**: Die postulierte Steuerungswirkung von Bildungsmonitoring ist kaum evidenzbasiert. Stattdessen dominieren „**Glaubenssätze**“ über deren Nutzen @Albers.2024.  
 
@@ -92,23 +92,6 @@ weitere detaillierte Ausführung [zum Forschungsstand](forschungsstand.html)
   - **Mehrsprachigkeitsansätze**, die Herkunftssprachen einbeziehen, zeigen positive Effekte auf die Identitätsbildung.  
 
 ---
-
-### **Forschungsdesiderata und methodische Ansätze**  
-- **Qualitative Lücken**: Wenig erforscht sind die **alltäglichen Praktiken** der Sprachförderung in Kitas/Grundschulen und die Rolle informeller Netzwerke.  
-- **Empfehlungen**:  
-  - **Längsschnittstudien** zur Wirksamkeit von Sprachförderprogrammen.  
-  - **Mixed-Methods-Designs**, die quantitative ESU-Daten mit qualitativen Interviews (Experten, Eltern) verknüpfen .  
-
----
-
-### Fazit  
-Die Forschung unterstreicht die **Komplexität kommunaler Steuerung** im Bildungsbereich. Während ESU-Daten und Sozialindizes zentrale Instrumente bleiben, mangelt es an nachhaltigen Strukturen für datenbasierte Entscheidungen. Erfolgreiche Umsetzung des Landesprogramms Sprachfit erfordert:  
-1. **Stärkung interkommunaler Kooperation**,  
-2. **Adaptive Nutzung von Diagnostikdaten**,  
-3. **Kritische Reflexion der Bildungsberichterstattung**.  
-
-Für weiterführende Analysen bieten sich **vergleichende Fallstudien** (z. B. urban vs. ländlich) und die Einbindung von **Critical Data Studies** an, um Machtdynamiken in datenbasierten Steuerungsprozessen zu beleuchten.
-
 
 ### Literatur
 
