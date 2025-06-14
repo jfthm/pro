@@ -93,10 +93,15 @@ weitere detaillierte Ausführung [siehe hier](forschungsstand.html)
 
 ---
 
+erste Überlegungen zur Zeitplanung [finden sich hier](Zeitplanung.html)
+
+
 ### Literatur
 
 ::: {#refs}
 :::
+
+Einordnung der Literatur [finden sich hier](sprachfit_mindmap.html)
 
 # über mich
 

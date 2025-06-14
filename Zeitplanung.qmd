@@ -1,0 +1,513 @@
+---
+title: "Zeitplan des Promotionsprojektes"
+lang: de  
+author: "J. Franz Th. Meißner"
+format:
+  html:
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo   # cosmo bootswatch theme
+    code-fold: show
+    code-tools: true
+    fig-width: 12
+    fig-height: 8
+    embed-resources: true
+  pdf:
+    documentclass: article
+    geometry: margin=2cm
+    fig-width: 10
+    fig-height: 6
+execute:
+  warning: false
+  message: false
+  echo: false
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+# Projektübersicht
+
+## Forschungsfrage
+
+*Wie gestaltet sich die Umsetzung des Landesprogramms Sprachfit (Säule 1: frühkindliche Sprachförderung in Kitas; Säule 2: sprachliche Bildung in Grundschulen) im Rahmen des datenbasierten kommunalen Bildungsmanagements, und welche Rolle spielen dabei die ESU-Daten als diagnostische Grundlage sowie die kommunikative Steuerung zwischen Schulträgern, Schulverwaltung, Kita-Trägern und weiteren Akteuren?*
+
+## Projektcharakteristika
+
+- **Projekttyp**: Nebenberufliche Promotion
+- **Laufzeit**: 4 Jahre (2025-2029)
+- **Methodik**: Mixed-Methods-Ansatz
+- **Bundesland**: Baden-Württemberg
+- **Besonderheit**: Synchronisation mit SprachFit-Einführungsphasen
+
+# Forschungsstand und Forschungslücken
+
+## Etablierte Forschungsfelder
+
+### Kommunales Bildungsmanagement
+- Kommunale Bildungsberichterstattung hat durch BMBF-Projektförderung bundesweit an Bedeutung gewonnen
+- Bildungsmonitoring wird als "zentrales Instrument der Datenbasierung" propagiert
+- Educational-Governance-Forschung untersucht Kooperationsanlässe durch Bildungsberichterstattung
+
+### Einschulungsuntersuchungen als Datenquelle
+- Schuleingangsuntersuchungen (SEU/ESU) bieten großes Potenzial für sozialräumliches Bildungsmonitoring
+- Flächendeckende Vollerhebung durch kommunale Gesundheitsämter mit standardisierten Verfahren
+- Verknüpfung mit sozioökonomischen Daten und Bildungsteilhabe möglich
+
+## Identifizierte Forschungslücken
+
+### Governance und Steuerung
+1. **Empirische Analyse kommunikativer Steuerung**: Fehlende systematische Untersuchung der Kommunikation zwischen verschiedenen Bildungsakteuren
+2. **Mehrebenen-Governance**: Schnittstellen zwischen staatlicher Schulverwaltung und kommunalen Akteuren unzureichend erforscht
+
+### Datenbasiertes Bildungsmanagement
+3. **Nutzung von ESU-Daten**: Keine systematische Analyse der Verwendung für kommunale Bildungsplanung
+4. **Sozialräumliche Differenzierung**: Mangelnde Forschung zur kleinräumigen Analyse von Sprachförderbedarfen
+
+### Implementierung und Wirksamkeit
+5. **SprachFit-Implementierung**: Keine systematische Evaluation in verschiedenen kommunalen Kontexten
+6. **Interprofessionelle Kooperation**: Mangelnde empirische Untersuchung der Zusammenarbeit zwischen verschiedenen Professionen
+
+# Projektplanung und Zeitplan
+
+```{r setup, include=FALSE}
+# Pakete laden
+library(plotly)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(scales)
+library(DT)
+library(knitr)
+library(kableExtra)
+
+# Deutsche Lokalisierung
+Sys.setlocale("LC_TIME", "German")
+```
+
+```{r projektdaten}
+# Projektdaten für 4-jähriges nebenberufliches Promotionsprojekt
+tasks <- data.frame(
+  Task = c(
+    "1. ORIENTIERUNGSPHASE",
+    "1.1 Literaturrecherche & theoretische Fundierung",
+    "1.2 Forschungsdesign entwickeln",
+    "1.3 Exposé erstellen",
+    "2. VORBEREITUNGSPHASE", 
+    "2.1 Ethikantrag & Genehmigungen",
+    "2.2 Datenzugang ESU verhandeln",
+    "2.3 Methodisches Instrumentarium entwickeln",
+    "3. EMPIRISCHE PHASE I (Quantitativ)",
+    "3.1 ESU-Datenanalyse (Baseline)",
+    "3.2 Sozialräumliche Analysen",
+    "3.3 Erste quantitative Befunde",
+    "4. EMPIRISCHE PHASE II (Qualitativ)",
+    "4.1 Experteninterviews vorbereiten",
+    "4.2 Interviews mit Bildungsakteuren",
+    "4.3 Fokusgruppen durchführen",
+    "4.4 Qualitative Datenauswertung",
+    "5. LÄNGSSCHNITTANALYSE",
+    "5.1 ESU-Daten nach SprachFit-Start",
+    "5.2 Implementierungsanalyse",
+    "5.3 Wirkungsanalyse SprachFit",
+    "6. INTEGRATION & SYNTHESE",
+    "6.1 Mixed-Methods Integration",
+    "6.2 Governance-Analyse",
+    "6.3 Theoretische Einordnung",
+    "7. VERSCHRIFTLICHUNG",
+    "7.1 Empirie-Kapitel schreiben",
+    "7.2 Diskussion & Schlussfolgerungen",
+    "7.3 Überarbeitung & Finalisierung",
+    "8. ABSCHLUSSPHASE",
+    "8.1 Finale Überarbeitung",
+    "8.2 Einreichung & Begutachtung",
+    "8.3 Verteidigung & Publikation"
+  ),
+  Start = as.Date(c(
+    # Orientierungsphase (Jan 2025 - Dez 2025)
+    "2025-01-01", "2025-01-01", "2025-06-01", "2025-10-01",
+    # Vorbereitungsphase (Okt 2025 - Mai 2026)
+    "2025-10-01", "2025-10-01", "2025-12-01", "2026-02-01",
+    # Empirische Phase I (Apr 2026 - Jan 2027)
+    "2026-04-01", "2026-04-01", "2026-07-01", "2026-10-01",
+    # Empirische Phase II (Nov 2026 - Aug 2027)
+    "2026-11-01", "2026-11-01", "2027-01-01", "2027-04-01", "2027-06-01",
+    # Längsschnittanalyse (Aug 2027 - Mai 2028) - nach SprachFit-Start
+    "2027-08-01", "2027-08-01", "2027-11-01", "2028-02-01",
+    # Integration & Synthese (Apr 2028 - Nov 2028)
+    "2028-04-01", "2028-04-01", "2028-07-01", "2028-09-01",
+    # Verschriftlichung (Sep 2028 - Aug 2029)
+    "2028-09-01", "2028-09-01", "2029-01-01", "2029-05-01",
+    # Abschlussphase (Aug 2029 - Dez 2029)
+    "2029-08-01", "2029-08-01", "2029-10-01", "2029-11-01"
+  )),
+  End = as.Date(c(
+    # Orientierungsphase
+    "2025-12-31", "2025-09-30", "2025-09-30", "2025-12-31",
+    # Vorbereitungsphase
+    "2026-05-31", "2025-11-30", "2026-01-31", "2026-05-31",
+    # Empirische Phase I
+    "2027-01-31", "2026-09-30", "2026-12-31", "2027-01-31",
+    # Empirische Phase II
+    "2027-08-31", "2026-12-31", "2027-06-30", "2027-05-31", "2027-08-31",
+    # Längsschnittanalyse
+    "2028-05-31", "2027-12-31", "2028-03-31", "2028-05-31",
+    # Integration & Synthese
+    "2028-11-30", "2028-06-30", "2028-08-31", "2028-11-30",
+    # Verschriftlichung
+    "2029-08-31", "2028-12-31", "2029-04-30", "2029-08-31",
+    # Abschlussphase
+    "2029-12-31", "2029-09-30", "2029-10-31", "2029-12-31"
+  )),
+  Phase = c(
+    "Orientierung", "Orientierung", "Orientierung", "Orientierung",
+    "Vorbereitung", "Vorbereitung", "Vorbereitung", "Vorbereitung",
+    "Empirie-I", "Empirie-I", "Empirie-I", "Empirie-I",
+    "Empirie-II", "Empirie-II", "Empirie-II", "Empirie-II", "Empirie-II",
+    "Längsschnitt", "Längsschnitt", "Längsschnitt", "Längsschnitt",
+    "Integration", "Integration", "Integration", "Integration",
+    "Schreibphase", "Schreibphase", "Schreibphase", "Schreibphase",
+    "Abschluss", "Abschluss", "Abschluss", "Abschluss"
+  ),
+  Priority = c(
+    "Hoch", "Hoch", "Hoch", "Kritisch",
+    "Hoch", "Kritisch", "Kritisch", "Hoch",
+    "Hoch", "Hoch", "Hoch", "Hoch",
+    "Hoch", "Mittel", "Hoch", "Hoch", "Hoch",
+    "Kritisch", "Kritisch", "Hoch", "Kritisch",
+    "Hoch", "Hoch", "Hoch", "Hoch",
+    "Hoch", "Hoch", "Hoch", "Kritisch",
+    "Kritisch", "Kritisch", "Kritisch", "Kritisch"
+  ),
+  Workload = c(
+    100, 60, 40, 80,
+    100, 20, 30, 60,
+    100, 70, 50, 40,
+    100, 30, 80, 60, 90,
+    100, 70, 60, 80,
+    100, 60, 50, 70,
+    100, 80, 60, 90,
+    100, 70, 40, 60
+  )
+)
+
+# SprachFit-Meilensteine in Baden-Württemberg
+sprachfit_milestones <- data.frame(
+  Milestone = c(
+    "SprachFit Qualifizierung startet",
+    "ESU-Weiterentwicklung abgeschlossen", 
+    "Pilotphase SprachFit beginnt",
+    "Schuljahr 2027/28: Teilnahmepflicht",
+    "Schuljahr 2028/29: Flächendeckung",
+    "Erste Wirkungsdaten verfügbar",
+    "Vollständige Implementierung"
+  ),
+  Date = as.Date(c(
+    "2025-03-01", "2025-08-01", "2026-09-01", 
+    "2027-08-01", "2028-08-01", "2028-12-01", "2029-06-01"
+  )),
+  Type = "SprachFit-Meilenstein",
+  Description = c(
+    "Beginn ZSL-Qualifizierung",
+    "Neue ESU-Verfahren implementiert",
+    "Erste Kommunen starten",
+    "Verpflichtende Teilnahme",
+    "Landesweite Umsetzung", 
+    "Erste Evaluationsdaten",
+    "System etabliert"
+  )
+)
+
+# Persönliche Dissertations-Meilensteine
+dissertation_milestones <- data.frame(
+  Milestone = c(
+    "Exposé verteidigt",
+    "Datenzugang ESU gesichert",
+    "Baseline-Analyse abgeschlossen",
+    "Qualitative Erhebung beendet",
+    "SprachFit-Wirkungsanalyse",
+    "Rohfassung fertig",
+    "Dissertation eingereicht"
+  ),
+  Date = as.Date(c(
+    "2025-12-31", "2026-01-31", "2027-01-31",
+    "2027-08-31", "2028-05-31", "2029-08-31", "2029-10-31"
+  )),
+  Type = "Dissertation-Meilenstein"
+)
+```
+
+## Gantt-Diagramm: 4-Jahres-Projektplan
+
+```{r gantt-diagramm, fig.width=14, fig.height=10}
+# Farben für Phasen definieren
+phase_colors <- c(
+  "Orientierung" = "#2E86AB",
+  "Vorbereitung" = "#A23B72", 
+  "Empirie-I" = "#F18F01",
+  "Empirie-II" = "#C73E1D",
+  "Längsschnitt" = "#592E83",
+  "Integration" = "#1B998B",
+  "Schreibphase" = "#F4B942",
+  "Abschluss" = "#A4243B"
+)
+
+# Task-Reihenfolge und Meilenstein-Positionen vorbereiten
+tasks$task_order <- nrow(tasks):1
+sprachfit_milestones$y_pos <- 35 - (1:nrow(sprachfit_milestones) * 1.2)
+dissertation_milestones$y_pos <- 36 - (1:nrow(dissertation_milestones) * 0.8)
+
+# Gantt-Diagramm erstellen
+p <- ggplot() +
+  # Hauptarbeitspakete
+  geom_segment(data = tasks, 
+               aes(x = Start, xend = End, 
+                   y = reorder(Task, task_order), 
+                   yend = reorder(Task, task_order),
+                   color = Phase, linewidth = Priority), 
+               alpha = 0.8) +
+  
+  # Start- und Endpunkte
+  geom_point(data = tasks, aes(x = Start, y = reorder(Task, task_order), 
+                              color = Phase), size = 2.5) +
+  geom_point(data = tasks, aes(x = End, y = reorder(Task, task_order), 
+                              color = Phase), size = 2.5) +
+  
+  # SprachFit-Meilensteine
+  geom_vline(data = sprachfit_milestones, 
+             aes(xintercept = Date), 
+             color = "red", linetype = "dashed", alpha = 0.7, linewidth = 1) +
+  
+  geom_text(data = sprachfit_milestones,
+            aes(x = Date, y = y_pos, label = Milestone),
+            angle = 90, hjust = 0, vjust = 0.5, size = 2.8, color = "red", fontface = "bold") +
+  
+  # Dissertations-Meilensteine
+  geom_point(data = dissertation_milestones, 
+             aes(x = Date, y = y_pos),
+             shape = 18, size = 4, color = "darkgreen") +
+  
+  geom_text(data = dissertation_milestones,
+            aes(x = Date, y = y_pos, label = Milestone),
+            hjust = -0.1, vjust = 0.5, size = 2.5, color = "darkgreen", fontface = "bold") +
+  
+  # Styling
+  scale_color_manual(values = phase_colors) +
+  scale_linewidth_manual(values = c("Niedrig" = 2, "Mittel" = 4, "Hoch" = 6, "Kritisch" = 8)) +
+  scale_x_date(date_breaks = "6 months", 
+               date_labels = "%b %Y",
+               expand = expansion(mult = c(0.02, 0.25))) +
+  
+  labs(
+    title = "Dissertationsprojekt SprachFit (2025-2029): 4-jähriges nebenberufliches Promotionsvorhaben",
+    subtitle = "Einschulungsuntersuchung im Rahmen des Landesprogramms SprachFit aus Sicht regionaler Bildungsakteure",
+    x = "Zeitraum (2025-2029)",
+    y = "Arbeitspakete und Projektphasen",
+    color = "Projektphase",
+    linewidth = "Priorität",
+    caption = paste("Rote Linien: SprachFit-Einführungsetappen BW | Grüne Rauten: Dissertations-Meilensteine\n",
+                   "Nebenberuflich durchgeführt | Flächendeckende SprachFit-Einführung: Schuljahr 2028/29")
+  ) +
+  
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 13, face = "bold", hjust = 0),
+    plot.subtitle = element_text(size = 11, hjust = 0, color = "gray20"),
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 9),
+    axis.text.y = element_text(size = 8),
+    axis.title = element_text(size = 10, face = "bold"),
+    legend.position = "bottom",
+    legend.title = element_text(face = "bold", size = 9),
+    legend.text = element_text(size = 8),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_line(color = "gray90", linetype = "dotted"),
+    panel.grid.major.y = element_blank(),
+    plot.caption = element_text(size = 8, color = "gray50", hjust = 0, lineheight = 1.2),
+    legend.box = "horizontal"
+  ) +
+  guides(
+    color = guide_legend(override.aes = list(linewidth = 3), ncol = 4),
+    linewidth = guide_legend(ncol = 4)
+  )
+
+print(p)
+```
+
+## Interaktives Gantt-Diagramm
+
+```{r interaktives-gantt, fig.width=14, fig.height=10}
+# Interaktives Diagramm mit plotly
+p_interactive <- ggplotly(p, tooltip = c("text")) %>%
+  layout(
+    title = list(
+      text = "Dissertationsprojekt SprachFit 2025-2029<br><sub>Nebenberufliche 4-Jahres-Promotion</sub>",
+      font = list(size = 14)
+    ),
+    margin = list(l = 50, r = 150, t = 120, b = 100),
+    legend = list(orientation = "h", x = 0, y = -0.2)
+  )
+
+p_interactive
+```
+
+# Projektanalyse
+
+```{r projektanalyse}
+# Grundlegende Projektdaten
+cat("PROJEKTÜBERSICHT\n")
+cat(paste(rep("=", 50), collapse=""), "\n")
+cat("Projektstart:", format(min(tasks$Start), "%d.%m.%Y"), "\n")
+cat("Projektende:", format(max(tasks$End), "%d.%m.%Y"), "\n")
+cat("Gesamtdauer:", round(as.numeric(max(tasks$End) - min(tasks$Start))/365.25, 1), "Jahre\n")
+cat("Arbeitspakete:", nrow(tasks), "\n\n")
+```
+
+## SprachFit-Synchronisation
+
+```{r sprachfit-sync}
+# SprachFit-Meilensteine Tabelle
+sprachfit_table <- sprachfit_milestones %>%
+  select(Date, Milestone, Description) %>%
+  mutate(Date = format(Date, "%d.%m.%Y")) %>%
+  rename(
+    "Datum" = Date,
+    "Meilenstein" = Milestone,
+    "Beschreibung" = Description
+  )
+
+kable(sprachfit_table, 
+      caption = "SprachFit-Einführungsetappen in Baden-Württemberg") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+## Phasenverteilung
+
+```{r phasenverteilung}
+# Phasenanalyse
+phase_summary <- tasks %>%
+  group_by(Phase) %>%
+  summarise(
+    Anzahl_Tasks = n(),
+    Dauer_Monate = round(sum(as.numeric(End - Start))/30.44, 1),
+    Workload_Gesamt = sum(Workload, na.rm = TRUE),
+    Start_Phase = min(Start),
+    Ende_Phase = max(End),
+    .groups = 'drop'
+  ) %>%
+  arrange(Start_Phase) %>%  # Chronologisch sortieren
+  mutate(
+    Start_Phase = format(Start_Phase, "%m/%Y"),
+    Ende_Phase = format(Ende_Phase, "%m/%Y")
+  ) %>%
+  rename(
+    "Projektphase" = Phase,
+    "Anzahl Arbeitspakete" = Anzahl_Tasks,
+    "Dauer (Monate)" = Dauer_Monate,
+    "Arbeitsaufwand %" = Workload_Gesamt,
+    "Start" = Start_Phase,
+    "Ende" = Ende_Phase
+  )
+
+kable(phase_summary, 
+      caption = "Verteilung der Projektphasen") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+## Dissertations-Meilensteine
+
+```{r dissertation-meilensteine}
+# Dissertations-Meilensteine Tabelle
+dissertation_table <- dissertation_milestones %>%
+  select(Date, Milestone) %>%
+  mutate(Date = format(Date, "%d.%m.%Y")) %>%
+  rename(
+    "Datum" = Date,
+    "Meilenstein" = Milestone
+  )
+
+kable(dissertation_table, 
+      caption = "Zentrale Dissertations-Meilensteine") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+# Erfolgsfaktoren und Risikomanagement
+
+## Kritische Erfolgsfaktoren (nebenberuflich)
+
+### Zeitmanagement
+- **Wöchentlich 15-20h** für Dissertation einplanen
+- **Pufferzeiten**: +25% pro Phase wegen Berufstätigkeit
+- **Schreibzeiten**: Frühe Morgenstunden oder Wochenenden
+
+### Datenzugang
+- **ESU-Daten**: Verhandlungen mit Gesundheitsämtern 2025/26
+- **SprachFit-Daten**: Abhängig von Implementierungsfortschritt
+- **Backup-Strategien** für verzögerte Datenverfügbarkeit
+
+### SprachFit-Abhängigkeiten
+- **2027/28**: Erste belastbare Implementierungsdaten
+- **2028/29**: Vollständige Wirkungsanalyse möglich
+- **Längsschnittdesign** optimal für Promotionszeitraum
+
+## Risikomanagement
+
+| Risiko | Wahrscheinlichkeit | Impact | Maßnahmen |
+|--------|-------------------|---------|-----------|
+| Datenzugang ESU verzögert | Hoch | Hoch | Frühe Verhandlungen, alternative Datenquellen |
+| SprachFit-Implementierung verzögert | Mittel | Hoch | Flexible Zeitplanung, Fokus auf verfügbare Daten |
+| Work-Life-Balance | Mittel | Mittel | Realistische Planung, Pufferzeiten |
+| Experteninterviews schwer realisierbar | Mittel | Mittel | Frühe Kontaktaufnahme, alternative Methoden |
+
+## Nebenberufliche Anpassungen
+
+- **Längere Laufzeit** kompensiert reduzierte Wochenarbeitszeit
+- **Parallele Phasen** minimiert für bessere Vereinbarkeit
+- **Intensive Schreibphasen** in beruflichen Ruhephasen
+- **Konferenzteilnahmen** auf Kernveranstaltungen fokussiert
+- **Datenerhebung** in schulfreien Zeiten geplant
+
+# Warum 2025-2029 optimal ist
+
+✅ **SprachFit-Implementierung begleitbar** von Anfang an  
+✅ **ESU-Weiterentwicklung 2025** als natürlicher Startpunkt  
+✅ **Längsschnittdaten SprachFit** ab 2027/28 verfügbar  
+✅ **Vollständige Wirkungsanalyse** bis 2029 möglich  
+✅ **Policy-Relevanz** durch zeitnahe Implementierungsforschung
+
+# Methodisches Vorgehen
+
+## Mixed-Methods-Ansatz
+
+### Quantitative Komponente
+- **ESU-Datenanalyse**: Längsschnittvergleich vor/nach SprachFit
+- **Sozialräumliche Analysen**: Kleinräumige Sprachförderbedarfe
+- **Wirkungsanalyse**: Statistische Modellierung der SprachFit-Effekte
+
+### Qualitative Komponente
+- **Experteninterviews**: Bildungsakteure auf verschiedenen Ebenen
+- **Fokusgruppen**: Regionale Bildungsakteure am Übergang Kita/Schule
+- **Governance-Analyse**: Steuerungsstrukturen und Kommunikationswege
+
+### Integration
+- **Sequenzielle Erklärung**: Quantitative Befunde qualitativ vertiefen
+- **Triangulation**: Verschiedene Datenquellen und Perspektiven
+- **Policy-Transfer**: Wissenschaftliche Erkenntnisse für Praxis aufbereiten
+
+# Erwartete Erkenntnisse und Beitrag
+
+## Wissenschaftlicher Beitrag
+
+1. **Empirische Fundierung** der Steuerungswirkungen von ESU-Daten
+2. **Systematische Analyse** der Governance-Strukturen bei SprachFit
+3. **Methodische Innovation** durch Mixed-Methods-Governance-Analyse
+4. **Theoretische Weiterentwicklung** der Educational-Governance-Forschung
+
+## Praxisrelevanz
+
+1. **Optimierung** des kommunalen Bildungsmanagements
+2. **Verbesserung** der ESU-Datennutzung für Bildungssteuerung
+3. **Stärkung** der interprofessionellen Kooperation
+4. **Evidenzbasierte Empfehlungen** für SprachFit-Weiterentwicklung
+
+---
