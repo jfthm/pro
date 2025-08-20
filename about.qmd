@@ -1,0 +1,16 @@
+---
+title: "Der Autor"
+lang: de  
+#author: "J. Franz Th. Meißner"
+format:
+  html:
+    toc: true
+    toc-location: right
+    theme: cosmo   # cosmo bootswatch theme
+---
+
+
+# über mich
+
+[**curriculum vitae**](/CV_2025.pdf) 
+

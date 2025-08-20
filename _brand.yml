@@ -1,0 +1,8 @@
+color:
+  palette:
+    primary: "#2c3e50"      # Navbar, Buttons
+    secondary: "#3498db"    # Akzentfarbe
+    danger: "#e74c3c"       # Signal
+    white: "#ffffff"
+  background: white
+  foreground: primary

@@ -337,18 +337,44 @@ print(p)
 ## Interaktives Gantt-Diagramm
 
 ```{r interaktives-gantt, fig.width=14, fig.height=10}
-# Interaktives Diagramm mit plotly
+# Interaktives Diagramm mit plotly - optimiert für separates Fenster
 p_interactive <- ggplotly(p, tooltip = c("text")) %>%
   layout(
     title = list(
       text = "Dissertationsprojekt SprachFit 2025-2029<br><sub>Nebenberufliche 4-Jahres-Promotion</sub>",
-      font = list(size = 14)
+      font = list(size = 16)
     ),
-    margin = list(l = 50, r = 150, t = 120, b = 100),
-    legend = list(orientation = "h", x = 0, y = -0.2)
+    margin = list(l = 50, r = 200, t = 140, b = 120),
+    legend = list(orientation = "h", x = 0, y = -0.15),
+    height = 800,
+    width = 1200
+  ) %>%
+  config(
+    displayModeBar = TRUE,
+    displaylogo = FALSE,
+    modeBarButtonsToAdd = list("pan2d", "select2d", "lasso2d", "autoScale2d"),
+    toImageButtonOptions = list(
+      format = "png",
+      filename = "gantt_sprachfit_dissertation",
+      height = 800,
+      width = 1200,
+      scale = 2
+    )
   )
 
+# Diagramm anzeigen
 p_interactive
+
+# Optional: Vollbild-HTML exportieren
+htmlwidgets::saveWidget(
+  p_interactive, 
+  file = "gantt_sprachfit_vollbild.html",
+  selfcontained = TRUE,
+  title = "Dissertationsprojekt SprachFit - Gantt-Diagramm"
+)
+
+cat("📊 Interaktives Gantt-Diagramm wurde als 'gantt_sprachfit_vollbild.html' gespeichert!\n")
+cat("💡 Öffnen Sie diese Datei im Browser für optimale Darstellung.\n")
 ```
 
 # Projektanalyse

@@ -1,0 +1,69 @@
+/* ========================= */
+/* Farbvariablen für Navbar  */
+/* ========================= */
+$navbar-bg: #2c3e50;
+$navbar-fg: #ffffff;
+$navbar-accent: #3498db;
+$navbar-alert: #e74c3c;
+
+/* ========================= */
+/* Navbar Layout & Design    */
+/* ========================= */
+.navbar {
+  background-color: $navbar-bg !important;
+  border-bottom: 3px solid $navbar-accent;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.navbar-brand {
+  color: $navbar-fg !important;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  color: $navbar-fg !important;
+  background-color: transparent !important;
+  font-weight: 500;
+  padding: 8px 16px !important;
+  border-radius: 4px;
+  margin: 0 4px;
+  transition: all 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  background-color: $navbar-accent !important;
+  color: $navbar-fg !important;
+  box-shadow: 0 2px 4px rgba(52,152,219,0.20);
+  transform: translateY(-1px);
+}
+
+/* Kontakt-Link hervorheben (optional) */
+.navbar-nav .nav-link:last-child {
+  background-color: $navbar-alert !important;
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 8px 20px !important;
+}
+
+.navbar-nav .nav-link:last-child:hover {
+  background-color: darken($navbar-alert, 8%) !important;
+}
+
+/* Responsive für Mobilgeräte */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    padding: 8px 12px !important;
+    margin: 3px 0;
+    text-align: center;
+  }
+  .navbar-collapse {
+    background-color: rgba(44,62,80,0.97);
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,107 @@
+---
+title: "Exposé des Promotionsprojektes"
+lang: de  
+author: "J. Franz Th. Meißner"
+format:
+  html:
+    toc: true
+    toc-location: right
+    theme: cosmo   # cosmo bootswatch theme
+bibliography: references.bib
+bibliographystyle: apa
+---
+
+
+
+# Multi-Level-Governance in der Sprachförderung: Eine institutionen-analytische Untersuchung der SprachFit-Implementierung in den kommunalen Bildungslandschaften Heidelberg und Rhein-Neckar-Kreis
+
+**(Arbeitstitel)**
+
+Sprachförderung
+
+Dissertationsprojekt beschäftigt sich mit der Umsetzung von Sprachförderung im Rahmen der Umsetzung des baden-württembergischen Bildungsprogramm "Sprachfit" in der kommunalen Bildungslandschaft, insbesondere im Kontext der kommunalen Verwaltung, des Bildungsmonitorings und der Schulverwaltung in Baden-Württemberg. Der Fokus liegt dabei auf den Schnittstellen zwischen staatlicher Schulverwaltung, kommunalen Schulträgern, Gesundheitsämter und den Kindertageseinrichtung sowie Schule.
+
+## Forschungsfrage 
+*Wie gestaltet sich die Umsetzung des Landesprogramms Sprachfit (Säule 1: frühkindliche Sprachförderung in Kitas; Säule 2: sprachliche Bildung in Grundschulen) im Rahmen des datenbasierten kommunalen Bildungsmanagements, und welche Rolle spielen dabei die ESU-Daten als diagnostische Grundlage sowie die kommunikative Steuerung zwischen Schulträgern, Schulverwaltung, Kita-Trägern und weiteren Akteuren?*
+
+**Unterfragen zur Präzisierung:**  
+
+**Diagnostik & Daten:**  
+Inwiefern werden ESU-Daten genutzt, um Sprachförderbedarfe zu identifizieren und die Übergänge zwischen Kita und Grundschule datenbasiert zu steuern?  
+Wie werden die Ergebnisse der Einschulungsuntersuchungen in die Planung und Adaption der Sprachfördersysteme integriert?  
+
+**Steuerungsprozesse & Akteurskooperation:**  
+   Nach welchen Maßstäben werden organisatorische Entscheidungen zur Implementierung von Sprachfit getroffen, und wie gestaltet sich die Zusammenarbeit zwischen den beteiligten Institutionen (Schulträger @Luthi.2023, Schulverwaltung, Kita-Träger @Thaiss.2023)?  
+   - Welche strukturellen, kommunikativen oder ressourcenbedingten Widerstände und Synergien treten dabei auf?  
+
+**Systemanpassungen & Nachhaltigkeit:**  
+   Welche Anpassungen der bestehenden Sprachförderstrukturen in Kitas und Grundschulen sind erforderlich, um die Ziele des Programms zu erreichen?  
+   - Wie werden bestehende Systeme (z. B. kommunale Bildungslandschaft, Förderinstrumente) an die Anforderungen von Sprachfit angepasst?  
+
+**Methodischer Ansatz:**  
+- **Experteninterviews** mit Vertreter:innen der Schulträger, Schulverwaltung, Kita-Leitungen und Bildungsmonitoring.  
+- **Sekundäranalyse** von ESU-Daten und kommunalen Bildungsberichten zur Identifikation von Förderbedarfen und Umsetzungstrends.  
+- **Dokumentenanalyse** von Steuerungsinstrumenten (z. B. Kooperationsvereinbarungen, Förderpläne) zur Rekonstruktion von Entscheidungslogiken.  
+
+**Ziel:**  
+Ein ganzheitliches Verständnis der Wechselwirkungen zwischen datenbasierter Diagnostik, institutioneller Steuerung und der praktischen Adaption von Sprachfördersystemen in der kommunalen Bildungslandschaft Baden-Württembergs.
+
+
+
+## Stand der Forschung 
+
+
+
+Die Forschung zur Umsetzung des **Landesprogramms Sprachfit** (Säule 1: Kita, Säule 2: Grundschule) im Kontext des datenbasierten kommunalen Bildungsmanagements (DKBM) zeigt folgende zentrale Erkenntnisse und Diskussionsstränge:
+
+---
+
+weitere detaillierte Ausführung [siehe hier](forschungsstand.html)
+
+### **Datenbasierte Diagnostik und ESU-Daten**  
+- **ESU als Schlüsselinstrument**: Die **Einschulungsuntersuchung (ESU)** liefert zentrale Daten zur Sprachkompetenz und Entwicklungsständen von Kindern. In Baden-Württemberg werden diese Daten genutzt, um frühzeitig Förderbedarfe zu identifizieren und Übergänge zwischen Kita und Grundschule zu steuern @TimSiepke.2014.  
+  - Dienen ESU-Daten zur Erstellung eines **Schulsozialindex**, der Ressourcenallokation (z. B. Sprachförderstunden) bedarfsgerecht ermöglicht @LisakWahl.2021, @Kuhnelt.2023.  
+- **Herausforderungen**: Die Integration von ESU-Daten in kommunale Steuerungsprozesse ist komplex @Groos.2015. Kritisch wird die **Standardisierung der Diagnostik** (z. B. HASE, SETK 3-5) und die mangelnde Berücksichtigung soziokultureller Kontexte diskutiert @Hogrebe.2019, @Fuhrer.2019.  
+
+---
+
+### **Kommunikative Steuerung und Akteurskooperation**  
+- **Interinstitutionelle Kooperation**: Erfolgreiche Umsetzung erfordert die Vernetzung von **Schulträgern, Schulverwaltung, Kita-Trägern und Eltern**. Studien zeigen, dass strukturelle Barrieren (z. B. Ressortegoismen) und unklare Zuständigkeiten die Zusammenarbeit erschweren @Kurucz.2023.  
+- **Rolle des DKBM**: Kommunales Bildungsmanagement fungiert als „Scharnier“ zwischen Akteuren, nutzt jedoch oft **formale Strukturen** (z. B. Lenkungsgremien) statt partizipativer Ansätze @HerbertMaul.2023, @StandigeWissenschaftlicheKommissionderKultusministerkonferenzSWK.2025.  
+
+---
+
+### **Organisatorische Entscheidungen und Systemanpassungen**  
+- **Sozialindizes und Ressourcenverteilung**: Kommunen nutzen kleinräumige Sozialdaten, um Förderressourcen bedarfsgerecht zuzuweisen @Bohm.2007,@Kersting.2019, .  
+  - **Kritik**: Die **Datenqualität** und -interpretation bleibt eine Herausforderung. So werden z. B. Sprachbarrieren in ESU-Tests oft nicht ausreichend berücksichtigt @Hinzen.2022.  
+- **Adaption bestehender Systeme**: Die Anpassung von Sprachförderstrukturen (z. B. Einbindung von Mehrsprachigkeit) erfordert **flexible Rahmenbedingungen** und Fortbildungen für pädagogisches Personal.  
+
+---
+
+### **Bildungsberichte und Bildungsmonitoring**  
+- **Bildungsberichterstattung**: Trotz breiter Verbreitung (z. B. im BMBF-Programm *Bildung integriert* und nachfolgende Programme) wird die **praktische Relevanz** von Bildungsberichten kritisch hinterfragt.  
+  - Studien zeigen, dass viele Kommunen Berichte primär aufgrund von Förderauflagen erstellen, aber nach Projektende nicht fortsetzen.  
+  - **Empirische Lücke**: Die postulierte Steuerungswirkung von Bildungsmonitoring ist kaum evidenzbasiert. Stattdessen dominieren „**Glaubenssätze**“ über deren Nutzen @Albers.2024.  
+
+---
+
+### **Widerstände und Synergien**  
+- **Strukturelle Hürden**:  
+  - **Personalmangel** in Kitas und Schulen limitiert die Umsetzung von Sprachförderprogrammen.  
+  - **Datenschutzbedenken** erschweren die Verknüpfung von Verwaltungsdaten (z. B. ESU mit Schulstatistik).  
+- **Erfolgsfaktoren**:  
+  - **Partizipative Entwicklungsprozesse** (z. B. Werkstätten mit Eltern und Fachkräften) stärken die Akzeptanz von Maßnahmen .  
+  - **Mehrsprachigkeitsansätze**, die Herkunftssprachen einbeziehen, zeigen positive Effekte auf die Identitätsbildung.  
+
+---
+
+erste Überlegungen zur Zeitplanung [finden sich hier](Zeitplanung.html)
+
+
+### Literatur
+
+::: {#refs}
+:::
+
+Einordnung der Literatur [finden sich hier](sprachfit_mindmap.html)
+

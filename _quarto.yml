@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Promotionsprojekt"
+  navbar:
+    left:
+      - text: "<i class='bi bi-house'></i> Start"
+        href: index.qmd
+      - text: "<i class='bi bi-file-earmark-text'></i> Exposé"
+        href: expose.html
+      - text: "<i class='bi bi-person-circle'></i> Autor"
+        href: about.html
+    right:
+      - text: "<i class='bi bi-envelope'></i>"
+        href: "mailto:j.f.th.meissner@gmail.com"
+      - text: "<i class='bi bi-github'></i>"
+        href: "https://github.com/jfthm/"
+      - text: "<i class='bi bi-linkedin'></i>"
+        href: "https://www.linkedin.com/in/jfthm"
+      - text: "<i class='bi bi-mastodon'></i>"
+        href: "https://mastodon.berlin/@jfthm/"
+      - text: "<i class='bi bi-info-circle'></i> Impressum"
+        href: impressum.html
+
+format:
+  html:
+    theme:
+      - cosmo
+      - _brand.yml    # Brand-Konfiguration mit Farben
+      #- _custom.scss  # Style aus SCSS
+    toc: true
