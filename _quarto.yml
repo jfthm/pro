@@ -6,7 +6,7 @@ website:
   navbar:
     left:
       - text: "<i class='bi bi-house'></i> Start"
-        href: index.qmd
+        href: index.html
       - text: "<i class='bi bi-file-earmark-text'></i> Exposé"
         href: expose.html
       - text: "<i class='bi bi-person-circle'></i> Autor"
