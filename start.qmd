@@ -11,8 +11,6 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-
-
 # Multi-Level-Governance in der Sprachförderung: Eine institutionen-analytische Untersuchung der SprachFit-Implementierung in den kommunalen Bildungslandschaften Heidelberg und Rhein-Neckar-Kreis
 
 **(Arbeitstitel)**
