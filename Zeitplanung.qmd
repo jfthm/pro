@@ -51,9 +51,9 @@ bibliographystyle: apa
 - Educational-Governance-Forschung untersucht Kooperationsanlässe durch Bildungsberichterstattung
 
 ### Einschulungsuntersuchungen als Datenquelle
-- Schuleingangsuntersuchungen (SEU/ESU) bieten großes Potenzial für sozialräumliches Bildungsmonitoring
+- Schuleingangsuntersuchungen (SEU/ESU) bieten groÃŸes Potenzial für sozialräumliches Bildungsmonitoring
 - Flächendeckende Vollerhebung durch kommunale Gesundheitsämter mit standardisierten Verfahren
-- Verknüpfung mit sozioökonomischen Daten und Bildungsteilhabe möglich
+- Verknüpfung mit sozioökonomischen Daten und Bildungsteilhabe mglich
 
 ## Identifizierte Forschungslücken
 
@@ -107,7 +107,7 @@ tasks <- data.frame(
     "4.2 Interviews mit Bildungsakteuren",
     "4.3 Fokusgruppen durchführen",
     "4.4 Qualitative Datenauswertung",
-    "5. LÄNGSSCHNITTANALYSE",
+    "5. LÃ„NGSSCHNITTANALYSE",
     "5.1 ESU-Daten nach SprachFit-Start",
     "5.2 Implementierungsanalyse",
     "5.3 Wirkungsanalyse SprachFit",
@@ -118,9 +118,9 @@ tasks <- data.frame(
     "7. VERSCHRIFTLICHUNG",
     "7.1 Empirie-Kapitel schreiben",
     "7.2 Diskussion & Schlussfolgerungen",
-    "7.3 Überarbeitung & Finalisierung",
+    "7.3 Ãœberarbeitung & Finalisierung",
     "8. ABSCHLUSSPHASE",
-    "8.1 Finale Überarbeitung",
+    "8.1 Finale Ãœberarbeitung",
     "8.2 Einreichung & Begutachtung",
     "8.3 Verteidigung & Publikation"
   ),
@@ -373,15 +373,15 @@ htmlwidgets::saveWidget(
   title = "Dissertationsprojekt SprachFit - Gantt-Diagramm"
 )
 
-cat("📊 Interaktives Gantt-Diagramm wurde als 'gantt_sprachfit_vollbild.html' gespeichert!\n")
-cat("💡 Öffnen Sie diese Datei im Browser für optimale Darstellung.\n")
+cat("ðŸ“Š Interaktives Gantt-Diagramm wurde als 'gantt_sprachfit_vollbild.html' gespeichert!\n")
+cat("ðŸ’¡ Ã–ffnen Sie diese Datei im Browser für optimale Darstellung.\n")
 ```
 
 # Projektanalyse
 
 ```{r projektanalyse}
 # Grundlegende Projektdaten
-cat("PROJEKTÜBERSICHT\n")
+cat("PROJEKTÃœBERSICHT\n")
 cat(paste(rep("=", 50), collapse=""), "\n")
 cat("Projektstart:", format(min(tasks$Start), "%d.%m.%Y"), "\n")
 cat("Projektende:", format(max(tasks$End), "%d.%m.%Y"), "\n")
@@ -478,7 +478,7 @@ kable(dissertation_table,
 
 ## Risikomanagement
 
-| Risiko | Wahrscheinlichkeit | Impact | Maßnahmen |
+| Risiko | Wahrscheinlichkeit | Impact | MaÃŸnahmen |
 |--------|-------------------|---------|-----------|
 | Datenzugang ESU verzögert | Hoch | Hoch | Frühe Verhandlungen, alternative Datenquellen |
 | SprachFit-Implementierung verzögert | Mittel | Hoch | Flexible Zeitplanung, Fokus auf verfügbare Daten |
@@ -495,11 +495,11 @@ kable(dissertation_table,
 
 # Warum 2025-2029 optimal ist
 
-✅ **SprachFit-Implementierung begleitbar** von Anfang an  
-✅ **ESU-Weiterentwicklung 2025** als natürlicher Startpunkt  
-✅ **Längsschnittdaten SprachFit** ab 2027/28 verfügbar  
-✅ **Vollständige Wirkungsanalyse** bis 2029 möglich  
-✅ **Policy-Relevanz** durch zeitnahe Implementierungsforschung
+âœ… **SprachFit-Implementierung begleitbar** von Anfang an  
+âœ… **ESU-Weiterentwicklung 2025** als natürlicher Startpunkt  
+âœ… **Längsschnittdaten SprachFit** ab 2027/28 verfügbar  
+âœ… **Vollständige Wirkungsanalyse** bis 2029 möglich  
+âœ… **Policy-Relevanz** durch zeitnahe Implementierungsforschung
 
 # Methodisches Vorgehen
 
@@ -512,7 +512,7 @@ kable(dissertation_table,
 
 ### Qualitative Komponente
 - **Experteninterviews**: Bildungsakteure auf verschiedenen Ebenen
-- **Fokusgruppen**: Regionale Bildungsakteure am Übergang Kita/Schule
+- **Fokusgruppen**: Regionale Bildungsakteure am Ãœbergang Kita/Schule
 - **Governance-Analyse**: Steuerungsstrukturen und Kommunikationswege
 
 ### Integration
