@@ -11,7 +11,7 @@ bibliography: references.bib
 bibliographystyle: apa
 ---
 
-# Multi-Level-Governance in der Sprachförderung: Eine institutionen-analytische Untersuchung der SprachFit-Implementierung in den kommunalen Bildungslandschaften Heidelberg und Rhein-Neckar-Kreis
+# SprachFit am Übergang Kita–Schule: Diagnostische Kompetenz, datengestützte Steuerung und Multi-Level-Governance in Heidelberg und dem Rhein-Neckar-Kreis
 
 **(Arbeitstitel)**
 
@@ -20,20 +20,22 @@ Sprachförderung
 Dissertationsprojekt beschäftigt sich mit der Umsetzung von Sprachförderung im Rahmen der Umsetzung des baden-württembergischen Bildungsprogramm "Sprachfit" in der kommunalen Bildungslandschaft, insbesondere im Kontext der kommunalen Verwaltung, des Bildungsmonitorings und der Schulverwaltung in Baden-Württemberg. Der Fokus liegt dabei auf den Schnittstellen zwischen staatlicher Schulverwaltung, kommunalen Schulträgern, Gesundheitsämter und den Kindertageseinrichtung sowie Schule.
 
 ## Forschungsfrage 
-*Wie gestaltet sich die Umsetzung des Landesprogramms Sprachfit (Säule 1: frühkindliche Sprachförderung in Kitas; Säule 2: sprachliche Bildung in Grundschulen) im Rahmen des datenbasierten kommunalen Bildungsmanagements, und welche Rolle spielen dabei die ESU-Daten als diagnostische Grundlage sowie die kommunikative Steuerung zwischen Schulträgern, Schulverwaltung, Kita-Trägern und weiteren Akteuren?*
-
+*Wie wird das Landesprogramm SprachFit (Säule 1) im Rahmen des datenbasierten kommunalen Bildungsmanagements in Heidelberg und im Rhein-Neckar-Kreis implementiert, und welche Rolle spielen dabei ESU-Daten als diagnostische Grundlage, die professionellen Kompetenzen pädagogischer Fachkräfte sowie Multi-Level-Governance-Strukturen für die evidenzbasierte Steuerung und nachhaltige Verankerung der Sprachförderung am Übergang Kita–Grundschule?*
 
 ### Literatur
 
 ::: {#refs}
 :::
 
+**eingereichtes Exposé**
+
+[**Exposé**](/Expose_Dissertation.pdf) 
+
 Einordnung der Literatur [finden sich hier](sprachfit_mindmap.html)
 
 # über mich
 
 [**curriculum vitae**](/CV_2025.pdf) 
-
 
 
 [{{< fa envelope >}}](mailto:j.f.th.meissner@gmail.com) [{{< fa brands github >}}](https://github.com/jfthm/) [{{< fa brands linkedin >}}](https://www.linkedin.com/in/jfthm) [{{< fa brands mastodon >}}](https://mastodon.berlin/@jfthm/)

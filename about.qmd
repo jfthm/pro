@@ -9,7 +9,6 @@ format:
     theme: cosmo   # cosmo bootswatch theme
 ---
 
-
 # über mich
 
 [**curriculum vitae**](/CV_2025.pdf) 
