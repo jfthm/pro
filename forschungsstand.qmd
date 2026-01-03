@@ -13,7 +13,48 @@ bibliographystyle: apa
 
 # Einschulungsuntersuchung im Rahmen des Landesprogramms "SprachFit" aus Sicht regionaler Bildungsakteure am Übergang Kita/Schule
 
+
+## Forschungsfeld
+
+### Sprachförderung 
+
+### Übergang Kita Schule
+
+### Schulreife / Bildungssprache / 
+
+### Kooperation zwischen Bildungseinrichtigungen
+
+### Implementation von Innovation im Schulssystem
+
+### Diagnositik / Steuerungswissen
+
+###  
+
+
+## Forschungsfragen
+
+
+
+
+
+
+
 ## Forschungsstand
+
+
+
+Die Studie von @Hartmann.2019 untersucht die Bedingungen für die erfolgreiche Umsetzung eines Modellprojekts zur Förderung der Schulbereitschaft in Kindertagesstätten, am Beispiel des Projekts „Schulreifes Kind“ (Baden-Württemberg).
+
+
+Faust
+
+Hasselhorn
+
+
+
+### Instrumente 
+
+
 
 ### Sprachförderung und Schuleingangsuntersuchungen als diagnostische Grundlage
 
