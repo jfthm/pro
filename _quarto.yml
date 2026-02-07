@@ -21,7 +21,7 @@ website:
         href: "https://www.linkedin.com/in/jfthm"
       - text: "<i class='bi bi-mastodon'></i>"
         href: "https://mastodon.berlin/@jfthm/"
-      - text: "<img src='images/orcid.logo.svg' alt='ORCID iD' style='height:1.2rem; vertical-align:middle;'>"
+      - text: "<img src='images/ORCID_iD.svg' alt='ORCID iD' style='height:1.2rem; vertical-align:middle;'>"
         href: "https://orcid.org/0009-0008-4266-0580"
       - text: "<i class='bi bi-info-circle'></i> Impressum"
         href: impressum.html

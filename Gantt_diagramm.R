@@ -1,5 +1,5 @@
-# Gantt-Diagramm für 4-jähriges nebenberufliches Dissertationsprojekt SprachFit
-# Berücksichtigung der SprachFit-Einführungsetappen in Baden-Württemberg
+# Gantt-Diagramm fÃ¼r 4-jÃ¤hriges nebenberufliches Dissertationsprojekt SprachFit
+# BerÃ¼cksichtigung der SprachFit-EinfÃ¼hrungsetappen in Baden-WÃ¼rttemberg
 
 # Pakete laden
 if (!require(plotly)) install.packages("plotly")
@@ -16,27 +16,27 @@ library(lubridate)
 library(scales)
 library(viridis)
 
-# Projektdaten für 4-jähriges nebenberufliches Promotionsprojekt
+# Projektdaten fÃ¼r 4-jÃ¤hriges nebenberufliches Promotionsprojekt
 tasks <- data.frame(
   Task = c(
     "1. ORIENTIERUNGSPHASE",
     "1.1 Literaturrecherche & theoretische Fundierung",
     "1.2 Forschungsdesign entwickeln",
-    "1.3 Exposé erstellen",
+    "1.3 ExposÃ© erstellen",
     "2. VORBEREITUNGSPHASE", 
     "2.1 Ethikantrag & Genehmigungen",
     "2.2 Datenzugang ESU verhandeln",
     "2.3 Methodisches Instrumentarium entwickeln",
     "3. EMPIRISCHE PHASE I (Quantitativ)",
     "3.1 ESU-Datenanalyse (Baseline)",
-    "3.2 Sozialräumliche Analysen",
+    "3.2 SozialrÃ¤umliche Analysen",
     "3.3 Erste quantitative Befunde",
     "4. EMPIRISCHE PHASE II (Qualitativ)",
     "4.1 Experteninterviews vorbereiten",
     "4.2 Interviews mit Bildungsakteuren",
-    "4.3 Fokusgruppen durchführen",
+    "4.3 Fokusgruppen durchfÃ¼hren",
     "4.4 Qualitative Datenauswertung",
-    "5. LÄNGSSCHNITTANALYSE",
+    "5. LÃ„NGSSCHNITTANALYSE",
     "5.1 ESU-Daten nach SprachFit-Start",
     "5.2 Implementierungsanalyse",
     "5.3 Wirkungsanalyse SprachFit",
@@ -47,9 +47,9 @@ tasks <- data.frame(
     "7. VERSCHRIFTLICHUNG",
     "7.1 Empirie-Kapitel schreiben",
     "7.2 Diskussion & Schlussfolgerungen",
-    "7.3 Überarbeitung & Finalisierung",
+    "7.3 Ãœberarbeitung & Finalisierung",
     "8. ABSCHLUSSPHASE",
-    "8.1 Finale Überarbeitung",
+    "8.1 Finale Ãœberarbeitung",
     "8.2 Einreichung & Begutachtung",
     "8.3 Verteidigung & Publikation"
   ),
@@ -62,7 +62,7 @@ tasks <- data.frame(
     "2026-04-01", "2026-04-01", "2026-07-01", "2026-10-01",
     # Empirische Phase II (Nov 2026 - Aug 2027)
     "2026-11-01", "2026-11-01", "2027-01-01", "2027-04-01", "2027-06-01",
-    # Längsschnittanalyse (Aug 2027 - Mai 2028) - nach SprachFit-Start
+    # LÃ¤ngsschnittanalyse (Aug 2027 - Mai 2028) - nach SprachFit-Start
     "2027-08-01", "2027-08-01", "2027-11-01", "2028-02-01",
     # Integration & Synthese (Apr 2028 - Nov 2028)
     "2028-04-01", "2028-04-01", "2028-07-01", "2028-09-01",
@@ -80,7 +80,7 @@ tasks <- data.frame(
     "2027-01-31", "2026-09-30", "2026-12-31", "2027-01-31",
     # Empirische Phase II
     "2027-08-31", "2026-12-31", "2027-06-30", "2027-05-31", "2027-08-31",
-    # Längsschnittanalyse
+    # LÃ¤ngsschnittanalyse
     "2028-05-31", "2027-12-31", "2028-03-31", "2028-05-31",
     # Integration & Synthese
     "2028-11-30", "2028-06-30", "2028-08-31", "2028-11-30",
@@ -94,7 +94,7 @@ tasks <- data.frame(
     "Vorbereitung", "Vorbereitung", "Vorbereitung", "Vorbereitung",
     "Empirie-I", "Empirie-I", "Empirie-I", "Empirie-I",
     "Empirie-II", "Empirie-II", "Empirie-II", "Empirie-II", "Empirie-II",
-    "Längsschnitt", "Längsschnitt", "Längsschnitt", "Längsschnitt",
+    "LÃ¤ngsschnitt", "LÃ¤ngsschnitt", "LÃ¤ngsschnitt", "LÃ¤ngsschnitt",
     "Integration", "Integration", "Integration", "Integration",
     "Schreibphase", "Schreibphase", "Schreibphase", "Schreibphase",
     "Abschluss", "Abschluss", "Abschluss", "Abschluss"
@@ -121,16 +121,16 @@ tasks <- data.frame(
   )
 )
 
-# SprachFit-Meilensteine in Baden-Württemberg
+# SprachFit-Meilensteine in Baden-WÃ¼rttemberg
 sprachfit_milestones <- data.frame(
   Milestone = c(
     "SprachFit Qualifizierung startet",
     "ESU-Weiterentwicklung abgeschlossen", 
     "Pilotphase SprachFit beginnt",
     "Schuljahr 2027/28: Teilnahmepflicht",
-    "Schuljahr 2028/29: Flächendeckung",
-    "Erste Wirkungsdaten verfügbar",
-    "Vollständige Implementierung"
+    "Schuljahr 2028/29: FlÃ¤chendeckung",
+    "Erste Wirkungsdaten verfÃ¼gbar",
+    "VollstÃ¤ndige Implementierung"
   ),
   Date = as.Date(c(
     "2025-03-01", "2025-08-01", "2026-09-01", 
@@ -148,10 +148,10 @@ sprachfit_milestones <- data.frame(
   )
 )
 
-# Persönliche Dissertations-Meilensteine
+# PersÃ¶nliche Dissertations-Meilensteine
 dissertation_milestones <- data.frame(
   Milestone = c(
-    "Exposé verteidigt",
+    "ExposÃ© verteidigt",
     "Datenzugang ESU gesichert",
     "Baseline-Analyse abgeschlossen",
     "Qualitative Erhebung beendet",
@@ -166,13 +166,13 @@ dissertation_milestones <- data.frame(
   Type = "Dissertation-Meilenstein"
 )
 
-# Farben für Phasen definieren
+# Farben fÃ¼r Phasen definieren
 phase_colors <- c(
   "Orientierung" = "#2E86AB",
   "Vorbereitung" = "#A23B72", 
   "Empirie-I" = "#F18F01",
   "Empirie-II" = "#C73E1D",
-  "Längsschnitt" = "#592E83",
+  "LÃ¤ngsschnitt" = "#592E83",
   "Integration" = "#1B998B",
   "Schreibphase" = "#F4B942",
   "Abschluss" = "#A4243B"
@@ -225,15 +225,15 @@ p <- ggplot() +
                expand = expansion(mult = c(0.02, 0.25))) +
   
   labs(
-    title = "Dissertationsprojekt SprachFit (2025-2029): 4-jähriges nebenberufliches Promotionsvorhaben",
+    title = "Dissertationsprojekt SprachFit (2025-2029): 4-jÃ¤hriges nebenberufliches Promotionsvorhaben",
     subtitle = "Einschulungsuntersuchung im Rahmen des Landesprogramms SprachFit aus Sicht regionaler Bildungsakteure",
     x = "Zeitraum (2025-2029)",
     y = "Arbeitspakete und Projektphasen",
     color = "Projektphase",
-    linewidth = "Priorität",
-    caption = paste("Rote Linien: SprachFit-Einführungsetappen BW | Grüne Rauten: Dissertations-Meilensteine\n",
-                    "Nebenberuflich durchgeführt | Flächendeckende SprachFit-Einführung: Schuljahr 2028/29\n",
-                    "Erstellt für Baden-Württemberg Bildungsforschung")
+    linewidth = "PrioritÃ¤t",
+    caption = paste("Rote Linien: SprachFit-EinfÃ¼hrungsetappen BW | GrÃ¼ne Rauten: Dissertations-Meilensteine\n",
+                    "Nebenberuflich durchgefÃ¼hrt | FlÃ¤chendeckende SprachFit-EinfÃ¼hrung: Schuljahr 2028/29\n",
+                    "Erstellt fÃ¼r Baden-WÃ¼rttemberg Bildungsforschung")
   ) +
   
   theme_minimal() +
@@ -261,9 +261,9 @@ p <- ggplot() +
 # Diagramm anzeigen
 print(p)
 
-# Detailanalyse für nebenberufliche Promotion
+# Detailanalyse fÃ¼r nebenberufliche Promotion
 cat("\n", paste(rep("=", 60), collapse=""), "\n")
-cat("4-JÄHRIGES NEBENBERUFLICHES DISSERTATIONSPROJEKT\n")
+cat("4-JÃ„HRIGES NEBENBERUFLICHES DISSERTATIONSPROJEKT\n")
 cat(paste(rep("=", 60), collapse=""), "\n")
 cat("Projektstart:", format(min(tasks$Start), "%d.%m.%Y"), "\n")
 cat("Projektende:", format(max(tasks$End), "%d.%m.%Y"), "\n")
@@ -271,7 +271,7 @@ cat("Gesamtdauer:", round(as.numeric(max(tasks$End) - min(tasks$Start))/365.25, 
 cat("Arbeitspakete:", nrow(tasks), "\n\n")
 
 # SprachFit-Synchronisation
-cat("SYNCHRONISATION MIT SPRACHFIT-EINFÜHRUNG:\n")
+cat("SYNCHRONISATION MIT SPRACHFIT-EINFÃœHRUNG:\n")
 cat(paste(rep("-", 45), collapse=""), "\n")
 for(i in 1:nrow(sprachfit_milestones)) {
   cat(format(sprachfit_milestones$Date[i], "%d.%m.%Y"), ":", 
@@ -294,49 +294,49 @@ cat("\n\nPHASENVERTEILUNG:\n")
 cat(paste(rep("-", 25), collapse=""), "\n")
 print(phase_summary)
 
-# Kritische Erfolgsfaktoren für nebenberufliche Promotion
+# Kritische Erfolgsfaktoren fÃ¼r nebenberufliche Promotion
 cat("\n\nKRITISCHE ERFOLGSFAKTOREN (nebenberuflich):\n")
 cat(paste(rep("-", 48), collapse=""), "\n")
 cat("1. ZEITMANAGEMENT:\n")
-cat("   - Wöchentlich 15-20h für Dissertation einplanen\n")
-cat("   - Pufferzeiten: +25% pro Phase wegen Berufstätigkeit\n")
-cat("   - Schreibzeiten: Frühe Morgenstunden oder Wochenenden\n\n")
+cat("   - WÃ¶chentlich 15-20h fÃ¼r Dissertation einplanen\n")
+cat("   - Pufferzeiten: +25% pro Phase wegen BerufstÃ¤tigkeit\n")
+cat("   - Schreibzeiten: FrÃ¼he Morgenstunden oder Wochenenden\n\n")
 
 cat("2. DATENZUGANG:\n")
-cat("   - ESU-Daten: Verhandlungen mit Gesundheitsämtern 2025/26\n")
-cat("   - SprachFit-Daten: Abhängig von Implementierungsfortschritt\n")
-cat("   - Backup-Strategien für verzögerte Datenverfügbarkeit\n\n")
+cat("   - ESU-Daten: Verhandlungen mit GesundheitsÃ¤mtern 2025/26\n")
+cat("   - SprachFit-Daten: AbhÃ¤ngig von Implementierungsfortschritt\n")
+cat("   - Backup-Strategien fÃ¼r verzÃ¶gerte DatenverfÃ¼gbarkeit\n\n")
 
-cat("3. SPRACHFIT-ABHÄNGIGKEITEN:\n")
+cat("3. SPRACHFIT-ABHÃ„NGIGKEITEN:\n")
 cat("   - 2027/28: Erste belastbare Implementierungsdaten\n")
-cat("   - 2028/29: Vollständige Wirkungsanalyse möglich\n")
-cat("   - Längsschnittdesign optimal für Promotionszeitraum\n\n")
+cat("   - 2028/29: VollstÃ¤ndige Wirkungsanalyse mÃ¶glich\n")
+cat("   - LÃ¤ngsschnittdesign optimal fÃ¼r Promotionszeitraum\n\n")
 
 # Risikomanagement
 cat("RISIKOMANAGEMENT:\n")
 cat(paste(rep("-", 18), collapse=""), "\n")
-cat("HOCH: Datenzugang ESU (Abhängigkeit von Kooperation)\n")
-cat("HOCH: SprachFit-Implementierungsverzögerungen\n")
-cat("MITTEL: Work-Life-Balance bei nebenberuflicher Durchführung\n")
-cat("MITTEL: Experteninterviews (Verfügbarkeit Bildungsakteure)\n")
+cat("HOCH: Datenzugang ESU (AbhÃ¤ngigkeit von Kooperation)\n")
+cat("HOCH: SprachFit-ImplementierungsverzÃ¶gerungen\n")
+cat("MITTEL: Work-Life-Balance bei nebenberuflicher DurchfÃ¼hrung\n")
+cat("MITTEL: Experteninterviews (VerfÃ¼gbarkeit Bildungsakteure)\n")
 cat("NIEDRIG: Methodische Herausforderungen\n\n")
 
 # Nebenberufliche Besonderheiten
 cat("NEBENBERUFLICHE ANPASSUNGEN:\n")
 cat(paste(rep("-", 29), collapse=""), "\n")
-cat("- Längere Laufzeit kompensiert reduzierte Wochenarbeitszeit\n")
-cat("- Parallele Phasen minimiert für bessere Vereinbarkeit\n")
+cat("- LÃ¤ngere Laufzeit kompensiert reduzierte Wochenarbeitszeit\n")
+cat("- Parallele Phasen minimiert fÃ¼r bessere Vereinbarkeit\n")
 cat("- Intensive Schreibphasen in beruflichen Ruhephasen\n")
 cat("- Konferenzteilnahmen auf Kernveranstaltungen fokussiert\n")
 cat("- Datenerhebung in schulfreien Zeiten geplant\n\n")
 
-# Optimaler Zeitraum für Promotion
+# Optimaler Zeitraum fÃ¼r Promotion
 cat("WARUM 2025-2029 OPTIMAL:\n")
 cat(paste(rep("-", 24), collapse=""), "\n")
 cat("??? SprachFit-Implementierung begleitbar von Anfang an\n")
-cat("??? ESU-Weiterentwicklung 2025 als natürlicher Startpunkt\n")
-cat("??? Längsschnittdaten SprachFit ab 2027/28 verfügbar\n")
-cat("??? Vollständige Wirkungsanalyse bis 2029 möglich\n")
+cat("??? ESU-Weiterentwicklung 2025 als natÃ¼rlicher Startpunkt\n")
+cat("??? LÃ¤ngsschnittdaten SprachFit ab 2027/28 verfÃ¼gbar\n")
+cat("??? VollstÃ¤ndige Wirkungsanalyse bis 2029 mÃ¶glich\n")
 cat("??? Policy-Relevanz durch zeitnahe Implementierungsforschung\n")
 
 # Interaktives Diagramm
