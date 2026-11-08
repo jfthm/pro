@@ -18,6 +18,8 @@ website:
   navbar:
     collapse-below: xl
     left:
+      - text: "Start"
+        href: index.qmd
       - text: "Projekt"
         href: projekt.qmd
       - text: "Person"
