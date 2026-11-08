@@ -1,0 +1,72 @@
+---
+title: "Impressum & Datenschutz"
+lang: de 
+format: html
+---
+
+# Impressum
+
+Angaben gemäß § 5 TMG:
+
+**J. Franz Th. Meißner**  
+Bahnhofstr. 43
+69115 Heidelberg
+Deutschland  
+
+## Kontakt
+E-Mail: j.f.th.m@web.de
+
+## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+J. Franz Th. Meißner
+Bahnhofstr. 43
+69115 Heidelberg
+Deutschland  
+
+---
+
+## Hinweis zu externen Links
+Diese Webseite enthält ggf. Links zu externen Webseiten Dritter, auf deren Inhalte kein Einfluss besteht.  
+Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.
+
+---
+
+## Urheberrecht
+Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.  
+Eine Vervielfältigung, Bearbeitung, Verbreitung oder jede Art der Verwertung außerhalb der Grenzen des Urheberrechts  
+bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+
+---
+
+# Datenschutzerklärung
+
+## Allgemeines
+Der Schutz Ihrer persönlichen Daten ist mir ein besonderes Anliegen. In dieser Erklärung informiere ich über die wichtigsten Aspekte der Datenverarbeitung im Rahmen dieser Webseite.
+
+## Zugriffsdaten
+Beim Besuch der Webseite werden automatisch Informationen durch den Webserver erfasst (z. B. IP-Adresse, Datum und Uhrzeit des Abrufs, Browsertyp).  
+Diese Daten werden temporär in Logfiles gespeichert und ausschließlich zur Sicherstellung eines störungsfreien Betriebs der Seite genutzt. Eine Zusammenführung mit anderen Datenquellen erfolgt nicht.
+
+## Cookies
+Diese Webseite verwendet standardmäßig keine Cookies, außer sie sind technisch notwendig.  
+Sollten Analyse- oder Tracking-Tools eingesetzt werden, wird hierzu gesondert informiert und ggf. eine Einwilligung eingeholt.
+
+## Kontaktaufnahme
+Wenn Sie per E-Mail Kontakt aufnehmen, werden die angegebenen Daten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen gespeichert. Eine Weitergabe ohne Einwilligung erfolgt nicht.
+
+## Ihre Rechte
+Sie haben hinsichtlich Ihrer bei uns gespeicherten Daten das Recht auf:
+- Auskunft
+- Berichtigung
+- Löschung
+- Einschränkung der Verarbeitung
+- Datenübertragbarkeit
+- Widerruf erteilter Einwilligungen
+
+Zur Ausübung dieser Rechte genügt eine formlose Mitteilung per E-Mail an: **j.f.th.m@web.de**
+
+## Beschwerderecht bei der Aufsichtsbehörde
+Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer Daten gegen geltendes Datenschutzrecht verstößt, haben Sie das Recht, sich bei einer Datenschutzbehörde zu beschweren.
+
+---
+
+

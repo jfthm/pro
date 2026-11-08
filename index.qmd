@@ -1,0 +1,49 @@
+---
+title: "Zwischen Diagnose und Förderung: SprachFit und Einschulungs­untersuchung in Baden-Württemberg"
+subtitle: "Projektseite einer Dissertation an der Universität Heidelberg"
+toc: false
+aliases:
+  - start.html
+---
+
+::: einstieg
+Willkommen auf der Projektseite meiner Dissertation. Ich bin J. Franz Th. Meißner und promoviere an der Universität Heidelberg darüber, wie das Programm SprachFit und die Einschulungsuntersuchung in Baden-Württemberg gesteuert und vor Ort umgesetzt werden. Diese Seite bündelt alles rund um das Projekt: Exposé, Vorgehen, Informationen für Teilnehmende, Forschungsethik und Open Science. Sie wächst mit dem Projekt mit.
+:::
+
+:::: rubriken
+::: rubrik
+[Projekt](projekt.qmd)
+
+Fragestellung, Vorgehen, Literatur und Exposé
+:::
+
+::: rubrik
+[Person](person.qmd)
+
+Wer hinter dem Projekt steht
+:::
+
+::: rubrik
+[Für Teilnehmende](teilnehmende.qmd)
+
+Ablauf eines Interviews, Ihre Daten und Ihre Rechte
+:::
+
+::: rubrik
+[Forschungsethik](forschungsethik.qmd)
+
+Ethikantrag, Datenschutzkonzept und Einsatz von KI
+:::
+
+::: rubrik
+[Open Science](open-science.qmd)
+
+Was veröffentlicht wird und was nicht
+:::
+
+::: rubrik
+[Vorträge und Publikationen](vortraege-publikationen.qmd)
+
+Ergebnisse und Beiträge aus dem Projekt
+:::
+::::

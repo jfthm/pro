@@ -1,0 +1,46 @@
+---
+title: "Forschungsethik"
+---
+
+Diese Seite dokumentiert, wie das Projekt mit forschungsethischen Fragen und mit Daten umgeht. Eine einfachere Darstellung für Interviewpartner:innen finden Sie unter [Für Teilnehmende](teilnehmende.qmd).
+
+## Ethikantrag {#ethikantrag}
+
+Das Vorhaben wird der Ethikkommission der Fakultät für Verhaltens- und Empirische Kulturwissenschaften der Universität Heidelberg zur Begutachtung vorgelegt.
+
+::: vorlaeufig
+**In Vorbereitung:** Datum, Status und Antragsunterlagen werden hier ergänzt, sobald der Antrag eingereicht ist.
+:::
+
+## Datenschutzkonzept {#datenschutzkonzept}
+
+### Interviews
+
+- **Grundlage:** informierte, freiwillige und jederzeit widerrufbare Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)
+- **Erhoben werden** berufliche Rolle und Werdegang, Einschätzungen und Erfahrungen zur Sprachförderung sowie Kontextangaben zur Einrichtung oder Kommune. Sensible Daten werden nicht gezielt erhoben. Fallen sie im Gespräch dennoch an, werden sie bei der Transkription anonymisiert oder gelöscht.
+- **Pseudonymisierung:** Namen von Personen, Einrichtungen und Kommunen sowie andere identifizierende Merkmale werden in den Transkripten durch Codes oder allgemeine Bezeichnungen ersetzt.
+- **Speicherung:** Tonaufnahmen werden nach Transkription und Qualitätskontrolle gelöscht, spätestens bis Oktober 2031.
+- **Zugriff:** Zugang zu nicht anonymisierten Daten haben nur der Doktorand und gegebenenfalls die direkte Betreuung.
+
+### Einschulungsuntersuchung
+
+Die Auswertung der ESU-Daten ist über einen Datenzugang innerhalb des Gesundheitsamts vorgesehen. Die Daten verlassen das Gesundheitsamt nicht. Nach außen gehen nur aggregierte Ergebnisse mit Mindestfallzahlen, nachdem sie mit dem Gesundheitsamt abgestimmt wurden. Die Einzelheiten regelt eine Kooperations- bzw. Datennutzungsvereinbarung.
+
+### Einsatz von KI
+
+Einzelne Arbeitsschritte werden durch KI unterstützt, weil sie den Umgang mit großen Textmengen erleichtert. Die Verantwortung für Auswertung und Interpretation bleibt beim Forschenden.
+
+| Arbeitsschritt | Werkzeug | Datengrundlage |
+|---|---|---|
+| Transkription der Interviews | lokal installiertes Modell (Whisper), die Daten verlassen den Rechner nicht | Tonaufnahmen |
+| Unterstützung bei Analysen | Claude über den Zugang der Universität | ausschließlich anonymisierte Daten |
+
+## Umgang mit sensiblen Daten
+
+ESU-Daten und Interviewmaterial werden nie veröffentlicht. Öffentlich werden nur ausgewertete, anonymisierte Ergebnisse.
+
+## Positionierung im Forschungsfeld
+
+::: vorlaeufig
+**In Vorbereitung:** Dieser Abschnitt wird noch ergänzt.
+:::

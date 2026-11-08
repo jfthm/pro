@@ -1,0 +1,147 @@
+/*-- scss:defaults --*/
+
+// Erscheinungsbild der Dissertation (festgelegt am 08.11.2026)
+// Farben: Okabe-Ito. Kontrast auf Weiß: Text 17,4:1 · Primär 5,2:1 · Akzent 3,9:1
+$cd-text: #1A1A1A;
+$cd-weiss: #FFFFFF;
+$cd-primaer: #0072B2;
+$cd-akzent: #D55E00;   // nur größere Elemente und Grafiken, nie Fließtext
+$cd-orange: #E69F00;
+$cd-himmelblau: #56B4E9;
+$cd-blaugruen: #009E73;
+$cd-lila: #CC79A7;
+$cd-gelb: #F0E442;     // nur Flächen, nie Text
+$cd-flaeche: #F4F6F8;
+$cd-linie: #C9CFD6;
+$cd-text-leise: #4A4F55;
+
+$font-family-sans-serif: "Atkinson Hyperlegible", system-ui, sans-serif;
+$font-family-monospace: "Atkinson Hyperlegible Mono", ui-monospace, monospace;
+$font-size-root: 18px;
+$line-height-base: 1.65;
+$headings-font-weight: 700;
+
+$primary: $cd-primaer;
+$body-color: $cd-text;
+$body-bg: $cd-weiss;
+$link-color: $cd-primaer;
+$link-decoration: underline;
+$link-hover-color: $cd-text;
+
+$navbar-bg: $cd-weiss;
+$navbar-fg: $cd-text;
+$navbar-hl: $cd-primaer;
+$footer-bg: $cd-flaeche;
+$footer-fg: $cd-text;
+
+/*-- scss:rules --*/
+
+:root {
+  --cd-text: #{$cd-text};
+  --cd-weiss: #{$cd-weiss};
+  --cd-primaer: #{$cd-primaer};
+  --cd-akzent: #{$cd-akzent};
+  --cd-orange: #{$cd-orange};
+  --cd-himmelblau: #{$cd-himmelblau};
+  --cd-blaugruen: #{$cd-blaugruen};
+  --cd-lila: #{$cd-lila};
+  --cd-gelb: #{$cd-gelb};
+  --cd-flaeche: #{$cd-flaeche};
+  --cd-linie: #{$cd-linie};
+  --cd-text-leise: #{$cd-text-leise};
+}
+
+a { text-underline-offset: 0.15em; }
+
+:focus-visible {
+  outline: 3px solid var(--cd-primaer);
+  outline-offset: 2px;
+}
+
+// Navigation: aktive Seite zusätzlich zur Farbe durch Unterstreichung markiert
+.navbar {
+  border-bottom: 1px solid var(--cd-linie);
+  .navbar-brand, .navbar-title { font-weight: 700; color: var(--cd-text); }
+  .nav-link { color: var(--cd-text); }
+  .nav-link:hover { color: var(--cd-primaer); text-decoration: underline; text-underline-offset: 0.3em; }
+  .nav-link.active {
+    color: var(--cd-primaer);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3em;
+  }
+}
+
+h1.title, .quarto-title h1 { font-size: 2.1rem; line-height: 1.2; hyphens: auto; overflow-wrap: break-word; }
+
+@media (max-width: 575.98px) {
+  h1.title, .quarto-title h1 { font-size: 1.6rem; }
+  .navbar .navbar-brand-container { max-width: calc(100% - 70px); }
+  .navbar .navbar-title { font-size: 1rem; }
+}
+h2 { font-size: 1.5rem; margin-top: 2.25rem; border-bottom: none; }
+h3 { font-size: 1.2rem; margin-top: 1.6rem; }
+
+// Startseite
+.einstieg {
+  font-size: 1.15rem;
+  max-width: 44rem;
+  padding-left: 1.1rem;
+  border-left: 5px solid var(--cd-akzent);
+  margin: 0.5rem 0 2.25rem;
+}
+
+.rubriken {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+
+  .rubrik {
+    border: 1px solid var(--cd-linie);
+    border-radius: 4px;
+    padding: 0.9rem 1.1rem;
+    p { margin-bottom: 0; }
+    p:first-child { margin-bottom: 0.2rem; }
+    p:first-child a { font-weight: 700; font-size: 1.05rem; }
+  }
+}
+
+// Forschungsfragen
+.forschungsfrage {
+  background: var(--cd-flaeche);
+  border-left: 5px solid var(--cd-primaer);
+  padding: 0.9rem 1.1rem;
+  margin: 1rem 0;
+  ol, p { margin-bottom: 0; }
+  li + li { margin-top: 0.5rem; }
+}
+
+// Noch offene Abschnitte: Kennzeichnung über Text und Rahmen, nicht nur über Farbe
+.vorlaeufig {
+  border: 1px dashed var(--cd-text-leise);
+  border-radius: 4px;
+  padding: 0.7rem 1rem;
+  margin: 1rem 0;
+  p { margin-bottom: 0; }
+}
+
+table.table { font-size: 0.95rem; }
+
+.nav-footer { border-top: 1px solid var(--cd-linie); font-size: 0.9rem; }
+.nav-footer a { color: var(--cd-text); }
+
+.nav-footer .nav-footer-left { flex: 3 1 auto; }
+
+.profil-icons { display: inline-block; white-space: nowrap; }
+
+.orcid-logo { height: 1.05em; width: auto; vertical-align: -0.15em; margin: 0; }
+
+.profil-icon {
+  display: inline-block;
+  margin-left: 0.65rem;
+  font-size: 1.15rem;
+  text-decoration: none;
+  &:hover { color: var(--cd-primaer); }
+}

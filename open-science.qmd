@@ -1,0 +1,29 @@
+---
+title: "Open Science"
+---
+
+Ich verstehe Forschung als öffentliches Gut. Deshalb mache ich mein Vorgehen so transparent wie möglich: Exposé-Versionen, Analysecode und Erhebungsinstrumente veröffentliche ich offen und unter freier Lizenz, nach Möglichkeit CC BY. Diese Website ist selbst Teil davon, denn sie dokumentiert, wie sich das Projekt entwickelt. Offenheit hat dort Grenzen, wo der Schutz von Personen beginnt: Rohdaten der Einschulungsuntersuchung und Interviewtranskripte werden nicht veröffentlicht.
+
+## Was veröffentlicht wird
+
+| Material | Stand | Lizenz |
+|---|---|---|
+| [Exposé-Versionen](projekt.qmd#exposé) | veröffentlicht | wird noch festgelegt |
+| R-Code und Analyseskripte | folgt | nach Möglichkeit CC BY |
+| Interviewleitfaden | folgt | nach Möglichkeit CC BY |
+| Codesystem | folgt | nach Möglichkeit CC BY |
+| Fragebögen (Schulbefragung, kommunale Akteure, Bildungsbüros) | in Überarbeitung | nach Möglichkeit CC BY |
+| Ergebnisse | später | nach Möglichkeit CC BY |
+
+## Was nicht veröffentlicht wird
+
+- **Rohdaten der Einschulungsuntersuchung:** Es sind Gesundheitsdaten von Kindern. Sie unterliegen besonderem Schutz und verlassen das Gesundheitsamt nicht.
+- **Interviewtranskripte:** Auch ohne Namen könnten Personen in einem überschaubaren Feld anhand ihrer Funktion und ihrer Aussagen wiedererkannt werden.
+
+Mehr dazu unter [Forschungsethik](forschungsethik.qmd).
+
+## Open Science Framework
+
+::: vorlaeufig
+**In Vorbereitung:** Der Eintrag im Open Science Framework (OSF) wird hier verlinkt.
+:::

@@ -1,35 +1,59 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!_archiv/"
+  resources:
+    - "assets/fonts/**"
+    - "dokumente/**"
+    - "images/**"
+
+lang: de
 
 website:
-  title: "Promotionsprojekt"
+  title: "J. Franz Th. Meißner"
+  site-url: "https://jfthm.github.io/pro/"
+  search: false
   navbar:
+    collapse-below: xl
     left:
-      - text: "<i class='bi bi-house'></i> Start"
-        href: start.html
-      - text: "<i class='bi bi-file-earmark-text'></i> Exposé"
-        href: expose.html
-      - text: "<i class='bi bi-person-circle'></i> Autor"
-        href: about.html
-    right:
-      - text: "<i class='bi bi-envelope'></i>"
-        href: "mailto:j.f.th.meissner@gmail.com"
-      - text: "<i class='bi bi-github'></i>"
-        href: "https://github.com/jfthm/"
-      - text: "<i class='bi bi-linkedin'></i>"
-        href: "https://www.linkedin.com/in/jfthm"
-      - text: "<i class='bi bi-mastodon'></i>"
-        href: "https://mastodon.berlin/@jfthm/"
-      - text: "<img src='images/ORCID_iD.svg' alt='ORCID iD' style='height:1.2rem; vertical-align:middle;'>"
-        href: "https://orcid.org/0009-0008-4266-0580"
-      - text: "<i class='bi bi-info-circle'></i> Impressum"
-        href: impressum.html
+      - text: "Projekt"
+        href: projekt.qmd
+      - text: "Person"
+        href: person.qmd
+      - text: "Für Teilnehmende"
+        href: teilnehmende.qmd
+      - text: "Forschungsethik"
+        href: forschungsethik.qmd
+      - text: "Open Science"
+        href: open-science.qmd
+      - text: "Vorträge und Publikationen"
+        href: vortraege-publikationen.qmd
+  page-footer:
+    left: |
+      J. Franz Th. Meißner · [![ORCID iD](images/ORCID_iD.svg){.orcid-logo} 0009-0008-4266-0580](https://orcid.org/0009-0008-4266-0580)
+      [[<i class="bi bi-github" aria-hidden="true"></i><span class="visually-hidden">GitHub</span>](https://github.com/jfthm/){.profil-icon}
+      [<i class="bi bi-linkedin" aria-hidden="true"></i><span class="visually-hidden">LinkedIn</span>](https://www.linkedin.com/in/jfthm){.profil-icon}
+      [<i class="bi bi-mastodon" aria-hidden="true"></i><span class="visually-hidden">Mastodon</span>](https://mastodon.berlin/@jfthm/){.profil-icon}
+      [<i class="bi bi-envelope" aria-hidden="true"></i><span class="visually-hidden">E-Mail</span>](mailto:j.f.th.meissner@gmail.com){.profil-icon}]{.profil-icons}
+    right: |
+      [Impressum](impressum.qmd) · [Datenschutz](datenschutz.qmd)
 
 format:
   html:
     theme:
-      - cosmo
-      - _brand.yml    # Brand-Konfiguration mit Farben
-      #- _custom.scss  # Style aus SCSS
+      - default
+      - assets/theme.scss
+    css: assets/fonts.css
     toc: true
+    toc-location: right
+    toc-title: "Auf dieser Seite"
+    html-math-method: plain
+    link-external-newwindow: false
+    anchor-sections: false
+
+execute:
+  echo: false
+  warning: false
+  message: false

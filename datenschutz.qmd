@@ -1,0 +1,41 @@
+---
+title: "Datenschutzerklärung"
+---
+
+## Verantwortlicher
+
+J. Franz Th. Meißner, Bahnhofstr. 43, 69115 Heidelberg, [j.f.th.meissner@gmail.com](mailto:j.f.th.meissner@gmail.com)
+
+## Hosting über GitHub Pages
+
+Diese Website wird bei GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA, über den Dienst GitHub Pages betrieben.
+
+Beim Aufruf der Website werden in Server-Logfiles folgende Daten verarbeitet: IP-Adresse, Referrer, Datum und Uhrzeit des Abrufs sowie Informationen zu Browser und Betriebssystem.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Mein berechtigtes Interesse liegt in der sicheren und zuverlässigen Bereitstellung der Website.
+
+Dabei können Daten in die USA übermittelt werden. Die Übermittlung stützt sich auf das EU-US Data Privacy Framework und die Standardvertragsklauseln der EU-Kommission. Weitere Informationen finden Sie in der [Datenschutzerklärung von GitHub](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement).
+
+## Keine Cookies, kein Tracking, keine externen Inhalte
+
+Diese Website setzt keine Cookies und keine Analyse- oder Tracking-Werkzeuge ein. Schriften und alle anderen Bestandteile werden direkt von dieser Website ausgeliefert, es werden keine Inhalte Dritter eingebettet. Links zu anderen Angeboten werden erst wirksam, wenn Sie sie anklicken. Dort gelten die Datenschutzhinweise der jeweiligen Anbieter.
+
+## Kontaktaufnahme per E-Mail
+
+Wenn Sie mir eine E-Mail schreiben, verarbeite ich Ihre Angaben, um Ihre Anfrage zu bearbeiten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Die Daten werden gelöscht, sobald sie dafür nicht mehr benötigt werden und keine Aufbewahrungspflichten entgegenstehen.
+
+## Online-Befragungen
+
+::: vorlaeufig
+**In Vorbereitung:** Vor dem Start von Online-Befragungen mit LimeSurvey werden hier das Hosting, die Verarbeitung der Antworten und die Erfassung der Herkunft über einen Link-Parameter beschrieben.
+:::
+
+Für die Teilnahme an Interviews und Befragungen im Forschungsprojekt gelten die gesonderten Informationen unter [Für Teilnehmende](teilnehmende.qmd) und [Forschungsethik](forschungsethik.qmd).
+
+## Ihre Rechte
+
+Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch gegen die Verarbeitung (Art. 21). Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen (Art. 7 Abs. 3). Eine formlose Nachricht an die oben genannte Adresse genügt.
+
+## Beschwerderecht
+
+Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, zum Beispiel beim [Landesbeauftragten für den Datenschutz und die Informationsfreiheit Baden-Württemberg](https://www.baden-wuerttemberg.datenschutz.de).

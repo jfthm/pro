@@ -1,0 +1,65 @@
+---
+title: "Projekt"
+bibliography: kernliteratur.bib
+nocite: "@*"
+csl: assets/apa.csl
+aliases:
+  - expose.html
+---
+
+## Worum es geht
+
+Mit SprachFit hat Baden-Württemberg die Sprachstandserfassung und die Sprachförderung im Übergang von der Kita in die Schule neu geordnet. Die Einschulungsuntersuchung (ESU) der Gesundheitsämter liefert dabei die einzige flächendeckende und kleinräumig auswertbare Datengrundlage zum Entwicklungsstand der Kinder vor der Einschulung.
+
+Die Dissertation untersucht aus der Perspektive der Education Governance, wie diese Daten über Ressortgrenzen hinweg genutzt werden und wie SprachFit vor Ort gesteuert und umgesetzt wird. Gesundheitsamt, Kultusverwaltung, Schulträger, Kitas und Schulen stehen in keinem hierarchischen Verhältnis zueinander, die Umsetzung ist deshalb auf Kooperation angewiesen.
+
+**Arbeitstitel:** Sprachstandserfassung zwischen Gesundheits- und Bildungsressort: Die Einschulungsuntersuchung und SprachFit im Rhein-Neckar-Kreis und in Heidelberg aus Perspektive der Educational Governance
+
+**Betreuung:** Prof. Dr. Monika Buhl, Institut für Bildungswissenschaft, Universität Heidelberg
+
+## Forschungsfragen
+
+::: forschungsfrage
+1. Welche Muster im Sprachstand und im Förderbedarf zeigen sich in den ESU-Kohorten ab 2021 auf kleinräumiger Ebene (Schulbezirke), und wie hängen sie mit dem Sozialstatus der Familien und mit der Einschätzung durch die Kita zusammen?
+2. Wie werden die ESU-Befunde im regionalen Akteursgefüge genutzt, und welche Bedingungen fördern oder hemmen eine evidenzbasierte Steuerung?
+3. Perspektivisch: Wie verstehen und nutzen Grundschulen ESU-Rückmeldungen, wenn diese ihnen über die Schulbezirke zur Verfügung gestellt werden?
+:::
+
+Die erste Frage beschreibt, was die Daten zeigen. Die zweite fragt, was im Zusammenspiel der Akteure mit diesen Befunden geschieht. Die dritte richtet den Blick auf die Schulen als Empfänger der Rückmeldungen.
+
+## Methodisches Vorgehen
+
+Das Projekt folgt einem Mixed-Methods-Design:
+
+- **ESU-Daten:** quantitative Sekundäranalyse, reproduzierbar dokumentiert in R
+- **Expert:inneninterviews** mit Akteur:innen aus Gesundheitsamt, Schulamt, Schulträgern und Schulen, ausgewertet mit der qualitativen Inhaltsanalyse nach Mayring
+- **Online-Befragungen:** perspektivisch eine Befragung von Grundschulen und weitere Befragungen kommunaler Akteure, darunter der Bildungsbüros in Baden-Württemberg
+
+### Abgrenzung zur landesweiten SprachFit-Evaluation
+
+Parallel läuft eine vom Institut für Bildungsanalysen Baden-Württemberg (IBBW) beauftragte Evaluation von SprachFit. Sie fragt eher nach der Wirkung des Programms. Die Dissertation fragt nach Steuerung und Umsetzung aus Governance-Perspektive, konzentriert sich auf die regionale Tiefe und bewertet die Wirksamkeit des Programms nicht. Ergebnisse der Evaluation werden in die Arbeit einbezogen und kritisch reflektiert.
+
+## Exposé
+
+Alle Fassungen des Exposés bleiben hier abrufbar, jeweils mit einer kurzen Notiz zu den Änderungen.
+
+```{r}
+#| output: asis
+versionen <- read.csv("daten/expose_versionen.csv", encoding = "UTF-8")
+versionen$Fassung <- sprintf("[Version %s (PDF)](%s)", versionen$version, versionen$datei)
+tabelle <- versionen[, c("Fassung", "stand", "aenderung")]
+names(tabelle) <- c("Fassung", "Stand", "Änderung")
+print(knitr::kable(tabelle, format = "pipe"))
+```
+
+## Kernliteratur
+
+```{r}
+#| output: asis
+if (length(grep("^@", readLines("kernliteratur.bib", warn = FALSE))) == 0) {
+  cat("::: vorlaeufig\n**In Vorbereitung:** Die Liste der Kernliteratur wird derzeit zusammengestellt.\n:::\n")
+}
+```
+
+::: {#refs}
+:::

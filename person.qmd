@@ -1,0 +1,20 @@
+---
+title: "Person"
+toc: false
+aliases:
+  - about.html
+---
+
+Mich beschäftigt die Frage, wie Bildungssysteme auf gesellschaftliche Veränderungen reagieren können und was sie dafür brauchen. Ich blicke darauf aus politikwissenschaftlicher, philosophischer und pädagogischer Perspektive, geprägt durch meine Arbeit zu Bildung für nachhaltige Entwicklung und in der kommunalen Bildungssteuerung. Mit meiner Promotion möchte ich weiterlernen und einen wissenschaftlichen Beitrag dazu leisten, wie Steuerung in der frühen Bildung wirkt.
+
+## Lebenslauf
+
+[Lebenslauf als PDF](dokumente/CV_2025.pdf)
+
+## Links
+
+- [![](images/ORCID_iD.svg){.orcid-logo fig-alt=""} ORCID: 0009-0008-4266-0580](https://orcid.org/0009-0008-4266-0580)
+- [<i class="bi bi-github" aria-hidden="true"></i> GitHub](https://github.com/jfthm/)
+- [<i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn](https://www.linkedin.com/in/jfthm)
+- [<i class="bi bi-mastodon" aria-hidden="true"></i> Mastodon](https://mastodon.berlin/@jfthm/)
+- [<i class="bi bi-envelope" aria-hidden="true"></i> j.f.th.meissner@gmail.com](mailto:j.f.th.meissner@gmail.com)
